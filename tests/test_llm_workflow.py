@@ -60,3 +60,18 @@ def test_search_plan_requires_a_query_when_searching():
     with pytest.raises(ValidationError):
         SearchPlan(needs_search=True, query=' ', reason='Missing information')
     assert not SearchPlan(needs_search=False, query='', reason='Clear match').needs_search
+
+
+@pytest.mark.parametrize('status', [400, 401, 402, 403, 404, 429, 503])
+def test_provider_diagnostics_do_not_expose_raw_errors(status):
+    import httpx
+    from openai import APIStatusError
+    from types import SimpleNamespace
+    from nlp_llm_agents.instructor_backend import _failure_message
+    response = httpx.Response(status, request=httpx.Request('POST', 'https://example.org'))
+    inner = APIStatusError('private request details', response=response, body=None)
+    outer = RuntimeError('wrapper with private request details')
+    outer.failed_attempts = [SimpleNamespace(exception=inner)]
+    message = _failure_message(outer)
+    assert f'HTTP {status}' in message
+    assert 'private' not in message

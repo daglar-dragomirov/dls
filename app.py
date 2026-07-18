@@ -27,7 +27,7 @@ BASELINE_PATH = ARTIFACTS / "baseline.joblib"
 REFERENCE_PATH = ARTIFACTS / "retrieval_reference.jsonl"
 METRICS_PATH = ARTIFACTS / "official_metrics.json"
 LLM_METRICS_PATH = ARTIFACTS / "official_llm_metrics.json"
-VERSION = "3.0.0"
+VERSION = "3.0.1"
 LLM_SLOTS = threading.BoundedSemaphore(2)
 LLM_REQUESTS: deque[float] = deque()
 LLM_RATE_LOCK = threading.Lock()
@@ -72,7 +72,8 @@ def health() -> dict:
 
 @app.get("/capabilities")
 def capabilities() -> dict:
-    return {"llm_available": instructor_available(), "search_modes": ["auto", "always", "off"]}
+    return {"llm_available": instructor_available(), "model": os.getenv("OPENROUTER_MODEL", "tencent/hy3"),
+            "search_modes": ["auto", "always", "off"]}
 
 
 @app.get("/metrics")

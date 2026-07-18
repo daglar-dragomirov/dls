@@ -5,7 +5,7 @@ import os
 from typing import Any
 from urllib.parse import urlparse
 
-from openai import OpenAI
+from openai import OpenAI, APIStatusError, APITimeoutError, APIConnectionError
 
 from .env_utils import first_openrouter_key
 from .schemas import RelevanceDecision, SearchPlan, SemanticDecision
@@ -13,6 +13,35 @@ from .schemas import RelevanceDecision, SearchPlan, SemanticDecision
 
 class LLMUnavailable(RuntimeError):
     pass
+
+
+def _failure_message(exc: Exception) -> str:
+    pending = [exc]
+    visited = set()
+    while pending:
+        current = pending.pop()
+        if id(current) in visited:
+            continue
+        visited.add(id(current))
+        if isinstance(current, APIStatusError):
+            status = current.status_code
+            reason = {
+                400: "Провайдер отклонил параметры модели или формат ответа.",
+                401: "Проверьте API-ключ на сервере.",
+                402: "Проверьте баланс и лимит расходов API-ключа.",
+                403: "Провайдер запретил запрос. Проверьте доступ к выбранной модели.",
+                404: "Модель или её провайдер не найдены.",
+                429: "Превышен лимит провайдера. Повторите позже.",
+            }.get(status, "Сбой провайдера LLM. Повторите позже.")
+            return f"OpenRouter HTTP {status}. {reason}"
+        if isinstance(current, APITimeoutError):
+            return "Истекло время ожидания OpenRouter. Повторите позже."
+        if isinstance(current, APIConnectionError):
+            return "Не удалось соединиться с OpenRouter."
+        if current.__cause__ is not None:
+            pending.append(current.__cause__)
+        pending.extend(attempt.exception for attempt in getattr(current, "failed_attempts", []) or [])
+    return "LLM не вернула ответ нужной структуры после повторных попыток."
 
 
 def instructor_available() -> bool:
@@ -53,7 +82,7 @@ def _structured(system: str, payload: dict[str, Any], schema):
         raise
     except Exception as exc:
         # Не возвращаем текст ошибки провайдера: он может содержать детали запроса.
-        raise LLMUnavailable(f"Не удалось получить ответ LLM ({type(exc).__name__}).") from exc
+        raise LLMUnavailable(_failure_message(exc)) from exc
 
 
 def plan_search(payload: dict[str, Any]) -> SearchPlan:
