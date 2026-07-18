@@ -60,3 +60,13 @@ def test_manual_russian_and_english_prompt_variants():
     assert en_how_many["call"]["tool_name"] == "convert_units"
     assert en_how_many["call"]["arguments"]["from_unit"] == "feet"
     assert en_how_many["call"]["arguments"]["to_unit"] == "meters"
+
+
+def test_temperature_conversion_in_both_languages():
+    fahrenheit = text_pipeline("Convert 32 fahrenheit to celsius")
+    assert fahrenheit["call"]["tool_name"] == "convert_units"
+    assert fahrenheit["tool_result"] == {"value": 0.0, "unit": "celsius"}
+
+    celsius = text_pipeline("Переведи 100 градусов цельсия в фаренгейты")
+    assert celsius["call"]["tool_name"] == "convert_units"
+    assert celsius["tool_result"] == {"value": 212.0, "unit": "fahrenheit"}

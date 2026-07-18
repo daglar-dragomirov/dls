@@ -14,7 +14,11 @@ client = TestClient(app_module.app)
 
 def test_health_ui_metrics_and_text_tool_end_to_end():
     assert client.get("/health").json()["status"] == "ok"
-    assert "Голосовой" in client.get("/").text
+    page = client.get("/").text
+    assert "Голосовой" in page
+    assert "Выбранная тема DLS" in page
+    assert "Готово: ${tool}" in page
+    assert "scrollIntoView" in page
     assert "local_lfm" in client.get("/metrics").json()
     response = client.post("/assistant/text", json={"text": "Convert 10 miles to kilometers"})
     assert response.status_code == 200

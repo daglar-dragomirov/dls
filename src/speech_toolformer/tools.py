@@ -51,8 +51,13 @@ UNIT_FACTORS = {
 def convert_units(value: float, from_unit: str, to_unit: str) -> ToolResult:
     from_unit = normalize_unit(from_unit)
     to_unit = normalize_unit(to_unit)
-    factor = UNIT_FACTORS[(from_unit, to_unit)]
-    converted = float(value) * factor
+    if (from_unit, to_unit) == ("fahrenheit", "celsius"):
+        converted = (float(value) - 32.0) * 5.0 / 9.0
+    elif (from_unit, to_unit) == ("celsius", "fahrenheit"):
+        converted = float(value) * 9.0 / 5.0 + 32.0
+    else:
+        factor = UNIT_FACTORS[(from_unit, to_unit)]
+        converted = float(value) * factor
     result = {"value": round(converted, 4), "unit": to_unit}
     answer = f"{value:g} {from_unit} is {result['value']:g} {to_unit}."
     return ToolResult(
@@ -107,6 +112,15 @@ def normalize_unit(unit: str) -> str:
         "фунта": "pounds",
         "фунтов": "pounds",
         "фунтах": "pounds",
+        "celsius": "celsius",
+        "centigrade": "celsius",
+        "цельсий": "celsius",
+        "цельсия": "celsius",
+        "fahrenheit": "fahrenheit",
+        "фаренгейт": "fahrenheit",
+        "фаренгейта": "fahrenheit",
+        "фаренгейты": "fahrenheit",
+        "фаренгейтов": "fahrenheit",
     }
     if unit not in aliases:
         raise ValueError(f"Unsupported unit: {unit}")
