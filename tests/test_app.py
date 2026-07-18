@@ -14,7 +14,10 @@ client = TestClient(app)
 
 def test_health_ui_metrics_and_score_end_to_end():
     assert client.get("/health").json()["status"] == "ok"
-    assert "Агент релевантности" in client.get("/").text
+    page = client.get("/").text
+    assert "Агент релевантности" in page
+    assert "Готово: класс" in page
+    assert "scrollIntoView" in page
     assert "official_eval" in client.get("/metrics").json()
     response = client.post(
         "/score",
