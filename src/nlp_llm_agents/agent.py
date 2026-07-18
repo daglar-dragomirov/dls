@@ -3,6 +3,7 @@ from __future__ import annotations
 from dataclasses import dataclass
 from html import unescape
 import re
+import os
 from typing import Any
 from urllib.parse import quote_plus
 from urllib.request import Request, urlopen
@@ -13,7 +14,7 @@ from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.neighbors import NearestNeighbors
 
 from .data_io import LABEL_VALUES
-from .instructor_backend import try_instructor_decision
+from .instructor_backend import plan_search, search_web, try_instructor_decision
 from .models import BaselineRelevanceModel, relevance_text
 
 
@@ -163,6 +164,7 @@ class RelevanceAgent:
         *,
         use_llm: bool = False,
         use_web_search: bool = False,
+        search_mode: str | None = None,
     ) -> pd.DataFrame:
         frame = frame.reset_index(drop=True)
         baseline_probabilities = self.baseline.predict_proba(frame)
@@ -177,58 +179,71 @@ class RelevanceAgent:
         for idx, row in frame.iterrows():
             evidence = self.evidence_tool.search(row)
             web_evidence = None
-            if use_web_search:
-                web_query = f"{row.get('organization_name', '')} {row.get('query', '')}".strip()
-                web_evidence = self.web_search_tool.search(web_query)
+            mode = search_mode or ("always" if use_web_search else "off")
+            if mode not in {"auto", "always", "off"}:
+                raise ValueError("Unknown search mode")
+            payload = {
+                "query": row.get("query"),
+                "organization_card": {
+                    "name": row.get("organization_name"),
+                    "rubric": row.get("category"),
+                    "address": row.get("address"),
+                    "prices": str(row.get("prices_summarized", ""))[:4000],
+                    "reviews": str(row.get("review_snippets", ""))[:6000],
+                    "permalink": row.get("permalink", ""),
+                },
+                "card_evidence": evidence,
+                "similar_train_examples": retrieved[idx][:5],
+                "baseline_probabilities": dict(zip(map(str, LABEL_VALUES), baseline_probabilities[idx].round(4))),
+            }
+            plan = None
+            run_search = mode == "always"
+            if use_llm and mode == "auto":
+                plan = plan_search(payload)
+                run_search = plan.needs_search
+            if run_search:
+                web_query = (plan.query if plan else "") or " ".join(
+                    str(row.get(field, "")) for field in ["organization_name", "address", "query"]
+                ).strip()
+                web_evidence = search_web(web_query) if use_llm else self.web_search_tool.search(web_query)
+            payload["public_web_search"] = web_evidence
             prediction_idx = int(combined[idx].argmax())
             predicted = float(LABEL_VALUES[prediction_idx])
             tool_calls = [
                 ToolCall("search_card_evidence", {"query": row["query"]}, evidence).__dict__,
                 ToolCall("retrieve_similar_train_examples", {"k": len(retrieved[idx])}, {"examples": retrieved[idx]}).__dict__,
             ]
-            if use_web_search:
+            if plan is not None:
+                tool_calls.append(ToolCall("plan_search", {"mode": mode}, plan.model_dump()).__dict__)
+            if run_search:
                 tool_calls.append(
                     ToolCall("public_web_search", {"query": web_query}, web_evidence or {}).__dict__
                 )
             backend = "baseline_retrieval_agent"
             llm_review = None
             if use_llm:
-                decision = try_instructor_decision(
-                    {
-                        "query": row.get("query"),
-                        "organization_card": {
-                            "name": row.get("organization_name"),
-                            "rubric": row.get("category"),
-                            "address": row.get("address"),
-                            "prices": str(row.get("prices_summarized", ""))[:1_500],
-                        },
-                        "search_evidence": evidence,
-                        "public_web_search": web_evidence,
-                        "similar_train_examples": retrieved[idx][:5],
-                        "baseline_probabilities": dict(zip(map(str, LABEL_VALUES), baseline_probabilities[idx].round(4))),
-                    }
-                )
-                if decision is not None:
-                    llm_review = decision.model_dump()
-                    predicted = float(decision.relevance)
-                    prediction_idx = LABEL_VALUES.index(predicted)
-                    combined[idx] = np.full(len(LABEL_VALUES), (1.0 - decision.confidence) / 2)
-                    combined[idx, prediction_idx] = decision.confidence
-                    combined[idx] /= combined[idx].sum()
-                    backend = "structured_llm_agent"
+                decision = try_instructor_decision(payload)
+                llm_review = decision.model_dump()
+                predicted = float(decision.relevance)
+                backend = "structured_llm_agent"
+                tool_calls.append(ToolCall("llm_decision", {"search_mode": mode}, llm_review).__dict__)
             rows.append(
                 {
                     "predicted_relevance": predicted,
-                    "confidence": float(combined[idx, prediction_idx]),
-                    "probability_0.0": float(combined[idx, 0]),
-                    "probability_0.1": float(combined[idx, 1]),
-                    "probability_1.0": float(combined[idx, 2]),
+                    "confidence": decision.confidence if use_llm else float(combined[idx, prediction_idx]),
+                    "confidence_kind": "llm_self_assessment" if use_llm else "classifier_probability",
+                    "probability_0.0": None if use_llm else float(combined[idx, 0]),
+                    "probability_0.1": None if use_llm else float(combined[idx, 1]),
+                    "probability_1.0": None if use_llm else float(combined[idx, 2]),
                     "used_search": True,
-                    "used_web_search": use_web_search,
+                    "used_web_search": run_search,
+                    "search_status": web_evidence["status"] if web_evidence else "not_requested",
+                    "sources": web_evidence.get("results", []) if web_evidence else [],
                     "tool_calls": tool_calls,
                     "backend": backend,
+                    "llm_model": os.getenv("OPENROUTER_MODEL", "tencent/hy3") if use_llm else None,
                     "llm_review": llm_review,
-                    "rationale": (
+                    "rationale": decision.rationale if use_llm else (
                         f"Baseline={baseline_probabilities[idx].round(3).tolist()}, "
                         f"retrieval={retrieval_probabilities[idx].round(3).tolist()}, "
                         f"weight={self.retrieval_weight:.2f}; class={predicted}."
@@ -243,15 +258,19 @@ class RelevanceAgent:
         *,
         use_llm: bool = False,
         use_web_search: bool = False,
+        search_mode: str | None = None,
     ) -> dict[str, Any]:
         result = self.score_frame(
             pd.DataFrame([row]),
             use_llm=use_llm,
             use_web_search=use_web_search,
+            search_mode=search_mode,
         ).iloc[0]
         response = {key: result[key] for key in [
             "predicted_relevance", "confidence", "probability_0.0", "probability_0.1", "probability_1.0",
             "used_search", "used_web_search", "tool_calls", "backend", "llm_review", "rationale",
+            "search_status", "sources", "confidence_kind",
+            "llm_model",
         ]}
         response["used_search"] = bool(response["used_search"])
         response["used_web_search"] = bool(response["used_web_search"])

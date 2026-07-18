@@ -28,7 +28,7 @@ def main() -> None:
     parser.add_argument("--eval", required=True)
     parser.add_argument("--env-file", default=None)
     parser.add_argument("--workers", type=int, default=12)
-    parser.add_argument("--output-dir", default=str(ROOT / "artifacts"))
+    parser.add_argument("--output-dir", default=str(ROOT / "artifacts" / "current_llm"))
     args = parser.parse_args()
     if args.env_file:
         load_env_file(args.env_file)
@@ -85,20 +85,20 @@ def main() -> None:
     with ThreadPoolExecutor(max_workers=args.workers) as pool:
         rows = list(tqdm(pool.map(score, range(len(evaluation))), total=len(evaluation), desc="Official LLM agent"))
     predictions = pd.DataFrame(rows).sort_values("index").reset_index(drop=True)
-    probabilities = np.full((len(predictions), len(LABEL_VALUES)), 1e-6, dtype=float)
+    # Метрики используют argmax; самооценку LLM не превращаем в вероятности классов.
+    probabilities = np.zeros((len(predictions), len(LABEL_VALUES)), dtype=float)
     for index, row in predictions.iterrows():
         class_index = LABEL_VALUES.index(float(row["predicted_relevance"]))
-        confidence = float(np.clip(row["confidence"], 1 / 3, 0.999998))
-        probabilities[index] = (1.0 - confidence) / 2
-        probabilities[index, class_index] = confidence
+        probabilities[index, class_index] = 1.0
     metrics = {
         "n": len(predictions),
-        "model": os.getenv("OPENROUTER_MODEL", "openai/gpt-4o-mini"),
+        "model": os.getenv("OPENROUTER_MODEL", "tencent/hy3"),
         "structured_output_rate": float((predictions["backend"] == "instructor_openrouter").mean()),
         "metrics": multiclass_metrics(predictions["label"], probabilities),
         "protocol": "Fixed prompt; official eval; no eval-driven prompt or threshold tuning",
     }
     output_dir = Path(args.output_dir)
+    output_dir.mkdir(parents=True, exist_ok=True)
     predictions.to_json(output_dir / "official_llm_predictions.jsonl", orient="records", lines=True, force_ascii=False)
     (output_dir / "official_llm_metrics.json").write_text(json.dumps(metrics, ensure_ascii=False, indent=2), encoding="utf-8")
     print(json.dumps(metrics, ensure_ascii=False, indent=2))

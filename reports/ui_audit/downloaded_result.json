@@ -1,0 +1,115 @@
+{
+  "predicted_relevance": 1,
+  "confidence": 0.6406996674870976,
+  "probability_0.0": 0.20574423485384302,
+  "probability_0.1": 0.15355609765905942,
+  "probability_1.0": 0.6406996674870976,
+  "used_search": true,
+  "used_web_search": false,
+  "tool_calls": [
+    {
+      "tool": "search_card_evidence",
+      "arguments": {
+        "query": "ресторан с верандой"
+      },
+      "result": {
+        "query_terms": [
+          "ресторан",
+          "верандой"
+        ],
+        "matched_terms": {
+          "rubric": [
+            "ресторан"
+          ],
+          "prices": [],
+          "reviews": []
+        },
+        "evidence_excerpts": [
+          "rubric: Ресторан"
+        ],
+        "search_url": "https://yandex.ru/search/?text=%D0%A1%D0%B5%D0%B2%D0%B5%D1%80%D0%BD%D1%8B%D0%B9+%D1%81%D0%B0%D0%B4+%D1%80%D0%B5%D1%81%D1%82%D0%BE%D1%80%D0%B0%D0%BD+%D1%81+%D0%B2%D0%B5%D1%80%D0%B0%D0%BD%D0%B4%D0%BE%D0%B9",
+        "maps_permalink": ""
+      }
+    },
+    {
+      "tool": "retrieve_similar_train_examples",
+      "arguments": {
+        "k": 9
+      },
+      "result": {
+        "examples": [
+          {
+            "similarity": 0.2549,
+            "query": "ресторан модный",
+            "organization": "Buro ЦУМ; Buro Tsum; Büro Tsum",
+            "rubric": "Ресторан",
+            "relevance": 1
+          },
+          {
+            "similarity": 0.1979,
+            "query": "самый необычный ресторан в москве",
+            "organization": "Bolshoi; Bolshoi by Novikov; Ресторан Bolshoi",
+            "rubric": "Ресторан",
+            "relevance": 1
+          },
+          {
+            "similarity": 0.1859,
+            "query": "самые красивые рестораны",
+            "organization": "Боно; Buono; Ejyj; Jyj; Restoran; Restoran Buono; Буоно; Ресторан; Ресторан Buono; Ресторан Боно; Ресторан Буоно",
+            "rubric": "Ресторан",
+            "relevance": 1
+          },
+          {
+            "similarity": 0.1837,
+            "query": "рестораны москвы с отдельными залами до 15 человек",
+            "organization": "DiDi; Диди; Didi; Didi Диди на Тверском бульваре; Ресторан Didi",
+            "rubric": "Ресторан",
+            "relevance": 0
+          },
+          {
+            "similarity": 0.1821,
+            "query": "итальянские рестораны москвы",
+            "organization": "Ла Веранда; La Veranda; La veranda",
+            "rubric": "Ресторан",
+            "relevance": 1
+          },
+          {
+            "similarity": 0.1806,
+            "query": "рыбные рестораны в ростове на дону",
+            "organization": "Силла; Silla; Сеть ресторанов Силла; Сила",
+            "rubric": "Ресторан",
+            "relevance": 1
+          },
+          {
+            "similarity": 0.174,
+            "query": "кафе с детской комнатой",
+            "organization": "Эларджи; Elargi; Elardgy",
+            "rubric": "Ресторан",
+            "relevance": 0.1
+          },
+          {
+            "similarity": 0.1706,
+            "query": "стейк в ресторане",
+            "organization": "Гарда; Garda; Летняя веранда у пруда",
+            "rubric": "Ресторан",
+            "relevance": 0.1
+          },
+          {
+            "similarity": 0.1693,
+            "query": "ресторан на новогоднюю ночь 2018",
+            "organization": "Консерватория; Conservatory; Conservatory Lounge and Bar; Бар Консерватория; Отель Арарат Парк Хаятт; Ресторан-бар Консерватория; Ararat Park Hyatt Moscow",
+            "rubric": "Ресторан",
+            "relevance": 1
+          }
+        ]
+      }
+    }
+  ],
+  "backend": "baseline_retrieval_agent",
+  "llm_review": null,
+  "rationale": "Baseline=[0.252, 0.151, 0.597], retrieval=[0.097, 0.16, 0.743], weight=0.30; class=1.0.",
+  "search_status": "not_requested",
+  "sources": [],
+  "confidence_kind": "classifier_probability",
+  "llm_model": null
+}
