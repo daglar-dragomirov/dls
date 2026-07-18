@@ -1,0 +1,56 @@
+[
+  {
+    "query":"restaurant with a terrace",
+    "organization_name":"Atlas Garden",
+    "label":1,
+    "agent_score":0.8912969076,
+    "agent_decision":1,
+    "backend":"deterministic_agent_with_llm_review",
+    "agent_rationale":"Required tags: ['restaurant', 'terrace']. Optional hits: ['good_food', 'reservation']. Negative hits: []. Public evidence: ['restaurant', 'terrace']. Tool evidence: ['restaurant', 'terrace']. Baseline=0.676, evidence=0.927, final=0.891. LLM review: Required tags: ['restaurant', 'terrace']. Optional hits: ['good_food', 'reservation']. Negative hits: []. Public evidence: ['restaurant', 'terrace']. Tool evidence: ['restaurant', 'terrace']. Baseline=0.676, evidence=0.927, final=0.891.",
+    "llm_review":{
+      "score":0.8912969076,
+      "decision":1,
+      "required_tags":[
+        "restaurant",
+        "terrace"
+      ],
+      "rationale":"Required tags: ['restaurant', 'terrace']. Optional hits: ['good_food', 'reservation']. Negative hits: []. Public evidence: ['restaurant', 'terrace']. Tool evidence: ['restaurant', 'terrace']. Baseline=0.676, evidence=0.927, final=0.891."
+    }
+  },
+  {
+    "query":"кафе куда можно с собакой",
+    "organization_name":"Север Daily",
+    "label":0,
+    "agent_score":0.3266891251,
+    "agent_decision":0,
+    "backend":"deterministic_agent_with_llm_review",
+    "agent_rationale":"Required tags: ['pet_friendly']. Optional hits: []. Negative hits: ['no_pets']. Public evidence: ['pet_friendly']. Tool evidence: ['pet_friendly']. Baseline=0.579, evidence=0.430, final=0.327. LLM review: Required tags: ['pet_friendly']. Optional hits: []. Negative hits: ['no_pets']. Public evidence: ['pet_friendly']. Tool evidence: ['pet_friendly']. Baseline=0.579, evidence=0.430, final=0.327.",
+    "llm_review":{
+      "score":0.327,
+      "decision":0,
+      "required_tags":[
+        "pet_friendly"
+      ],
+      "rationale":"Required tags: ['pet_friendly']. Optional hits: []. Negative hits: ['no_pets']. Public evidence: ['pet_friendly']. Tool evidence: ['pet_friendly']. Baseline=0.579, evidence=0.430, final=0.327."
+    }
+  },
+  {
+    "query":"тихое место поработать с ноутбуком",
+    "organization_name":"Мята Парк",
+    "label":1,
+    "agent_score":0.9385965284,
+    "agent_decision":1,
+    "backend":"deterministic_agent_with_llm_review",
+    "agent_rationale":"Required tags: ['cafe', 'wifi', 'quiet']. Optional hits: ['long_stay', 'power_outlets']. Negative hits: []. Public evidence: ['cafe', 'wifi', 'quiet']. Tool evidence: []. Baseline=0.800, evidence=0.927, final=0.939. LLM review: The organization 'Мята Парк' meets all the required tags for the query: it is a cafe, offers wifi, and is described as quiet. Additionally, it has features like power outlets and allows for long stays, which further supports its relevance for working with a laptop.",
+    "llm_review":{
+      "score":0.9385965284,
+      "decision":1,
+      "required_tags":[
+        "cafe",
+        "wifi",
+        "quiet"
+      ],
+      "rationale":"The organization 'Мята Парк' meets all the required tags for the query: it is a cafe, offers wifi, and is described as quiet. Additionally, it has features like power outlets and allows for long stays, which further supports its relevance for working with a laptop."
+    }
+  }
+]

@@ -1,0 +1,16 @@
+{
+  "n": 50,
+  "structured_llm_review_rate": 1.0,
+  "backend_counts": {
+    "deterministic_agent_with_llm_review": 49,
+    "deterministic_agent_llm_guarded": 1
+  },
+  "metrics": {
+    "roc_auc": 0.9967999999999999,
+    "pr_auc": 0.9968615384615387,
+    "accuracy": 0.98,
+    "f1": 0.9803921568627451,
+    "precision": 0.9615384615384616,
+    "recall": 1.0
+  }
+}
