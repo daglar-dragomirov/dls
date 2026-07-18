@@ -1,0 +1,300 @@
+{"id":0,"text":"We paid 120 USD; divide it for 6 friends and add a 18 percent tip","expected_call":{"tool_name":"split_bill","arguments":{"amount":120,"people":6,"tip_percent":18,"currency":"USD"}},"needs_tool":1}
+{"id":1,"text":"Просто поздоровайся и ничего не вызывай","expected_call":{"tool_name":"none","arguments":{}},"needs_tool":0}
+{"id":2,"text":"Переведи 100 kilograms в pounds","expected_call":{"tool_name":"convert_units","arguments":{"value":100,"from_unit":"kilograms","to_unit":"pounds"}},"needs_tool":1}
+{"id":3,"text":"Split a EUR 120 bill between 2 people with 0% tip","expected_call":{"tool_name":"split_bill","arguments":{"amount":120,"people":2,"tip_percent":0,"currency":"EUR"}},"needs_tool":1}
+{"id":4,"text":"How much should each person pay if dinner is 250 RUB, 7 people, tip 12 percent","expected_call":{"tool_name":"split_bill","arguments":{"amount":250,"people":7,"tip_percent":12,"currency":"RUB"}},"needs_tool":1}
+{"id":5,"text":"Сколько платит каждый если счет 72 EUR, людей 4, чаевые 10 процентов","expected_call":{"tool_name":"split_bill","arguments":{"amount":72,"people":4,"tip_percent":10,"currency":"EUR"}},"needs_tool":1}
+{"id":6,"text":"Сколько будет 21 kilometers в miles","expected_call":{"tool_name":"convert_units","arguments":{"value":21,"from_unit":"kilometers","to_unit":"miles"}},"needs_tool":1}
+{"id":7,"text":"How many meters are in 12 feet","expected_call":{"tool_name":"convert_units","arguments":{"value":12,"from_unit":"feet","to_unit":"meters"}},"needs_tool":1}
+{"id":8,"text":"What can you do as a voice assistant","expected_call":{"tool_name":"none","arguments":{}},"needs_tool":0}
+{"id":9,"text":"Раздели счет 180 EUR на 4 человек с чаевыми 10 процентов","expected_call":{"tool_name":"split_bill","arguments":{"amount":180,"people":4,"tip_percent":10,"currency":"EUR"}},"needs_tool":1}
+{"id":10,"text":"Раздели счет 120 USD на 6 человек с чаевыми 12 процентов","expected_call":{"tool_name":"split_bill","arguments":{"amount":120,"people":6,"tip_percent":12,"currency":"USD"}},"needs_tool":1}
+{"id":11,"text":"Сколько будет 100 feet в meters","expected_call":{"tool_name":"convert_units","arguments":{"value":100,"from_unit":"feet","to_unit":"meters"}},"needs_tool":1}
+{"id":12,"text":"Сколько платит каждый если счет 96 RUB, людей 6, чаевые 12 процентов","expected_call":{"tool_name":"split_bill","arguments":{"amount":96,"people":6,"tip_percent":12,"currency":"RUB"}},"needs_tool":1}
+{"id":13,"text":"Convert 10 miles to kilometers","expected_call":{"tool_name":"convert_units","arguments":{"value":10,"from_unit":"miles","to_unit":"kilometers"}},"needs_tool":1}
+{"id":14,"text":"Tell me a short fun fact about machine learning","expected_call":{"tool_name":"none","arguments":{}},"needs_tool":0}
+{"id":15,"text":"How many meters are in 42 feet","expected_call":{"tool_name":"convert_units","arguments":{"value":42,"from_unit":"feet","to_unit":"meters"}},"needs_tool":1}
+{"id":16,"text":"Переведи 10 kilometers в miles","expected_call":{"tool_name":"convert_units","arguments":{"value":10,"from_unit":"kilometers","to_unit":"miles"}},"needs_tool":1}
+{"id":17,"text":"Переведи 12 kilograms в pounds","expected_call":{"tool_name":"convert_units","arguments":{"value":12,"from_unit":"kilograms","to_unit":"pounds"}},"needs_tool":1}
+{"id":18,"text":"Сколько будет 12 kilograms в pounds","expected_call":{"tool_name":"convert_units","arguments":{"value":12,"from_unit":"kilograms","to_unit":"pounds"}},"needs_tool":1}
+{"id":19,"text":"How many meters are in 42 feet","expected_call":{"tool_name":"convert_units","arguments":{"value":42,"from_unit":"feet","to_unit":"meters"}},"needs_tool":1}
+{"id":20,"text":"Сколько платит каждый если счет 72 USD, людей 2, чаевые 0 процентов","expected_call":{"tool_name":"split_bill","arguments":{"amount":72,"people":2,"tip_percent":0,"currency":"USD"}},"needs_tool":1}
+{"id":21,"text":"Просто поздоровайся и ничего не вызывай","expected_call":{"tool_name":"none","arguments":{}},"needs_tool":0}
+{"id":22,"text":"Раздели счет 48 EUR на 4 человек с чаевыми 18 процентов","expected_call":{"tool_name":"split_bill","arguments":{"amount":48,"people":4,"tip_percent":18,"currency":"EUR"}},"needs_tool":1}
+{"id":23,"text":"Сколько будет 100 feet в meters","expected_call":{"tool_name":"convert_units","arguments":{"value":100,"from_unit":"feet","to_unit":"meters"}},"needs_tool":1}
+{"id":24,"text":"Please translate 3 meters into feet","expected_call":{"tool_name":"convert_units","arguments":{"value":3,"from_unit":"meters","to_unit":"feet"}},"needs_tool":1}
+{"id":25,"text":"Сколько будет 5 feet в meters","expected_call":{"tool_name":"convert_units","arguments":{"value":5,"from_unit":"feet","to_unit":"meters"}},"needs_tool":1}
+{"id":26,"text":"Split a EUR 48 bill between 5 people with 18% tip","expected_call":{"tool_name":"split_bill","arguments":{"amount":48,"people":5,"tip_percent":18,"currency":"EUR"}},"needs_tool":1}
+{"id":27,"text":"Convert 100 meters to feet","expected_call":{"tool_name":"convert_units","arguments":{"value":100,"from_unit":"meters","to_unit":"feet"}},"needs_tool":1}
+{"id":28,"text":"Split a EUR 250 bill between 5 people with 5% tip","expected_call":{"tool_name":"split_bill","arguments":{"amount":250,"people":5,"tip_percent":5,"currency":"EUR"}},"needs_tool":1}
+{"id":29,"text":"Сколько платит каждый если счет 96 USD, людей 6, чаевые 15 процентов","expected_call":{"tool_name":"split_bill","arguments":{"amount":96,"people":6,"tip_percent":15,"currency":"USD"}},"needs_tool":1}
+{"id":30,"text":"Сколько будет 10 kilometers в miles","expected_call":{"tool_name":"convert_units","arguments":{"value":10,"from_unit":"kilometers","to_unit":"miles"}},"needs_tool":1}
+{"id":31,"text":"How much should each person pay if dinner is 120 RUB, 4 people, tip 18 percent","expected_call":{"tool_name":"split_bill","arguments":{"amount":120,"people":4,"tip_percent":18,"currency":"RUB"}},"needs_tool":1}
+{"id":32,"text":"Раздели счет 72 RUB на 7 человек с чаевыми 15 процентов","expected_call":{"tool_name":"split_bill","arguments":{"amount":72,"people":7,"tip_percent":15,"currency":"RUB"}},"needs_tool":1}
+{"id":33,"text":"How many pounds are in 7.5 kilograms","expected_call":{"tool_name":"convert_units","arguments":{"value":7.5,"from_unit":"kilograms","to_unit":"pounds"}},"needs_tool":1}
+{"id":34,"text":"Сколько будет 7.5 kilograms в pounds","expected_call":{"tool_name":"convert_units","arguments":{"value":7.5,"from_unit":"kilograms","to_unit":"pounds"}},"needs_tool":1}
+{"id":35,"text":"Сколько платит каждый если счет 96 USD, людей 7, чаевые 5 процентов","expected_call":{"tool_name":"split_bill","arguments":{"amount":96,"people":7,"tip_percent":5,"currency":"USD"}},"needs_tool":1}
+{"id":36,"text":"We paid 96 RUB; divide it for 5 friends and add a 5 percent tip","expected_call":{"tool_name":"split_bill","arguments":{"amount":96,"people":5,"tip_percent":5,"currency":"RUB"}},"needs_tool":1}
+{"id":37,"text":"How much should each person pay if dinner is 35 USD, 5 people, tip 0 percent","expected_call":{"tool_name":"split_bill","arguments":{"amount":35,"people":5,"tip_percent":0,"currency":"USD"}},"needs_tool":1}
+{"id":38,"text":"Сколько будет 3 kilometers в miles","expected_call":{"tool_name":"convert_units","arguments":{"value":3,"from_unit":"kilometers","to_unit":"miles"}},"needs_tool":1}
+{"id":39,"text":"Please translate 12 feet into meters","expected_call":{"tool_name":"convert_units","arguments":{"value":12,"from_unit":"feet","to_unit":"meters"}},"needs_tool":1}
+{"id":40,"text":"Просто поздоровайся и ничего не вызывай","expected_call":{"tool_name":"none","arguments":{}},"needs_tool":0}
+{"id":41,"text":"Скажи коротко, что такое градиентный спуск","expected_call":{"tool_name":"none","arguments":{}},"needs_tool":0}
+{"id":42,"text":"How much should each person pay if dinner is 120 RUB, 3 people, tip 12 percent","expected_call":{"tool_name":"split_bill","arguments":{"amount":120,"people":3,"tip_percent":12,"currency":"RUB"}},"needs_tool":1}
+{"id":43,"text":"Convert 10 pounds to kilograms","expected_call":{"tool_name":"convert_units","arguments":{"value":10,"from_unit":"pounds","to_unit":"kilograms"}},"needs_tool":1}
+{"id":44,"text":"How many kilometers are in 3 miles","expected_call":{"tool_name":"convert_units","arguments":{"value":3,"from_unit":"miles","to_unit":"kilometers"}},"needs_tool":1}
+{"id":45,"text":"We paid 120 EUR; divide it for 8 friends and add a 0 percent tip","expected_call":{"tool_name":"split_bill","arguments":{"amount":120,"people":8,"tip_percent":0,"currency":"EUR"}},"needs_tool":1}
+{"id":46,"text":"Сколько будет 3 miles в kilometers","expected_call":{"tool_name":"convert_units","arguments":{"value":3,"from_unit":"miles","to_unit":"kilometers"}},"needs_tool":1}
+{"id":47,"text":"We paid 120 RUB; divide it for 3 friends and add a 5 percent tip","expected_call":{"tool_name":"split_bill","arguments":{"amount":120,"people":3,"tip_percent":5,"currency":"RUB"}},"needs_tool":1}
+{"id":48,"text":"Раздели счет 96 USD на 6 человек с чаевыми 12 процентов","expected_call":{"tool_name":"split_bill","arguments":{"amount":96,"people":6,"tip_percent":12,"currency":"USD"}},"needs_tool":1}
+{"id":49,"text":"Раздели счет 72 EUR на 3 человек с чаевыми 10 процентов","expected_call":{"tool_name":"split_bill","arguments":{"amount":72,"people":3,"tip_percent":10,"currency":"EUR"}},"needs_tool":1}
+{"id":50,"text":"Просто поздоровайся и ничего не вызывай","expected_call":{"tool_name":"none","arguments":{}},"needs_tool":0}
+{"id":51,"text":"Раздели счет 48 EUR на 4 человек с чаевыми 15 процентов","expected_call":{"tool_name":"split_bill","arguments":{"amount":48,"people":4,"tip_percent":15,"currency":"EUR"}},"needs_tool":1}
+{"id":52,"text":"We paid 250 USD; divide it for 6 friends and add a 10 percent tip","expected_call":{"tool_name":"split_bill","arguments":{"amount":250,"people":6,"tip_percent":10,"currency":"USD"}},"needs_tool":1}
+{"id":53,"text":"Раздели счет 35 EUR на 5 человек с чаевыми 18 процентов","expected_call":{"tool_name":"split_bill","arguments":{"amount":35,"people":5,"tip_percent":18,"currency":"EUR"}},"needs_tool":1}
+{"id":54,"text":"Please translate 7.5 kilometers into miles","expected_call":{"tool_name":"convert_units","arguments":{"value":7.5,"from_unit":"kilometers","to_unit":"miles"}},"needs_tool":1}
+{"id":55,"text":"What can you do as a voice assistant","expected_call":{"tool_name":"none","arguments":{}},"needs_tool":0}
+{"id":56,"text":"Сколько будет 10 kilometers в miles","expected_call":{"tool_name":"convert_units","arguments":{"value":10,"from_unit":"kilometers","to_unit":"miles"}},"needs_tool":1}
+{"id":57,"text":"Please translate 10 kilograms into pounds","expected_call":{"tool_name":"convert_units","arguments":{"value":10,"from_unit":"kilograms","to_unit":"pounds"}},"needs_tool":1}
+{"id":58,"text":"Please translate 7.5 kilometers into miles","expected_call":{"tool_name":"convert_units","arguments":{"value":7.5,"from_unit":"kilometers","to_unit":"miles"}},"needs_tool":1}
+{"id":59,"text":"Split a RUB 96 bill between 3 people with 0% tip","expected_call":{"tool_name":"split_bill","arguments":{"amount":96,"people":3,"tip_percent":0,"currency":"RUB"}},"needs_tool":1}
+{"id":60,"text":"Convert 7.5 pounds to kilograms","expected_call":{"tool_name":"convert_units","arguments":{"value":7.5,"from_unit":"pounds","to_unit":"kilograms"}},"needs_tool":1}
+{"id":61,"text":"Convert 12 kilograms to pounds","expected_call":{"tool_name":"convert_units","arguments":{"value":12,"from_unit":"kilograms","to_unit":"pounds"}},"needs_tool":1}
+{"id":62,"text":"Split a EUR 72 bill between 3 people with 10% tip","expected_call":{"tool_name":"split_bill","arguments":{"amount":72,"people":3,"tip_percent":10,"currency":"EUR"}},"needs_tool":1}
+{"id":63,"text":"Split a EUR 250 bill between 8 people with 10% tip","expected_call":{"tool_name":"split_bill","arguments":{"amount":250,"people":8,"tip_percent":10,"currency":"EUR"}},"needs_tool":1}
+{"id":64,"text":"Split a USD 48 bill between 2 people with 10% tip","expected_call":{"tool_name":"split_bill","arguments":{"amount":48,"people":2,"tip_percent":10,"currency":"USD"}},"needs_tool":1}
+{"id":65,"text":"Переведи 21 meters в feet","expected_call":{"tool_name":"convert_units","arguments":{"value":21,"from_unit":"meters","to_unit":"feet"}},"needs_tool":1}
+{"id":66,"text":"Please translate 3 feet into meters","expected_call":{"tool_name":"convert_units","arguments":{"value":3,"from_unit":"feet","to_unit":"meters"}},"needs_tool":1}
+{"id":67,"text":"Convert 100 feet to meters","expected_call":{"tool_name":"convert_units","arguments":{"value":100,"from_unit":"feet","to_unit":"meters"}},"needs_tool":1}
+{"id":68,"text":"Please translate 12 feet into meters","expected_call":{"tool_name":"convert_units","arguments":{"value":12,"from_unit":"feet","to_unit":"meters"}},"needs_tool":1}
+{"id":69,"text":"What can you do as a voice assistant","expected_call":{"tool_name":"none","arguments":{}},"needs_tool":0}
+{"id":70,"text":"How much should each person pay if dinner is 180 EUR, 5 people, tip 0 percent","expected_call":{"tool_name":"split_bill","arguments":{"amount":180,"people":5,"tip_percent":0,"currency":"EUR"}},"needs_tool":1}
+{"id":71,"text":"Раздели счет 250 EUR на 8 человек с чаевыми 0 процентов","expected_call":{"tool_name":"split_bill","arguments":{"amount":250,"people":8,"tip_percent":0,"currency":"EUR"}},"needs_tool":1}
+{"id":72,"text":"Сколько платит каждый если счет 35 USD, людей 6, чаевые 10 процентов","expected_call":{"tool_name":"split_bill","arguments":{"amount":35,"people":6,"tip_percent":10,"currency":"USD"}},"needs_tool":1}
+{"id":73,"text":"Split a USD 35 bill between 3 people with 15% tip","expected_call":{"tool_name":"split_bill","arguments":{"amount":35,"people":3,"tip_percent":15,"currency":"USD"}},"needs_tool":1}
+{"id":74,"text":"How much should each person pay if dinner is 120 RUB, 4 people, tip 15 percent","expected_call":{"tool_name":"split_bill","arguments":{"amount":120,"people":4,"tip_percent":15,"currency":"RUB"}},"needs_tool":1}
+{"id":75,"text":"Раздели счет 120 EUR на 3 человек с чаевыми 10 процентов","expected_call":{"tool_name":"split_bill","arguments":{"amount":120,"people":3,"tip_percent":10,"currency":"EUR"}},"needs_tool":1}
+{"id":76,"text":"We paid 250 USD; divide it for 5 friends and add a 18 percent tip","expected_call":{"tool_name":"split_bill","arguments":{"amount":250,"people":5,"tip_percent":18,"currency":"USD"}},"needs_tool":1}
+{"id":77,"text":"Сколько платит каждый если счет 35 RUB, людей 7, чаевые 18 процентов","expected_call":{"tool_name":"split_bill","arguments":{"amount":35,"people":7,"tip_percent":18,"currency":"RUB"}},"needs_tool":1}
+{"id":78,"text":"Split a USD 72 bill between 8 people with 5% tip","expected_call":{"tool_name":"split_bill","arguments":{"amount":72,"people":8,"tip_percent":5,"currency":"USD"}},"needs_tool":1}
+{"id":79,"text":"How much should each person pay if dinner is 120 EUR, 5 people, tip 12 percent","expected_call":{"tool_name":"split_bill","arguments":{"amount":120,"people":5,"tip_percent":12,"currency":"EUR"}},"needs_tool":1}
+{"id":80,"text":"Сколько платит каждый если счет 180 USD, людей 6, чаевые 0 процентов","expected_call":{"tool_name":"split_bill","arguments":{"amount":180,"people":6,"tip_percent":0,"currency":"USD"}},"needs_tool":1}
+{"id":81,"text":"How much should each person pay if dinner is 250 EUR, 8 people, tip 15 percent","expected_call":{"tool_name":"split_bill","arguments":{"amount":250,"people":8,"tip_percent":15,"currency":"EUR"}},"needs_tool":1}
+{"id":82,"text":"Convert 21 kilometers to miles","expected_call":{"tool_name":"convert_units","arguments":{"value":21,"from_unit":"kilometers","to_unit":"miles"}},"needs_tool":1}
+{"id":83,"text":"Convert 10 feet to meters","expected_call":{"tool_name":"convert_units","arguments":{"value":10,"from_unit":"feet","to_unit":"meters"}},"needs_tool":1}
+{"id":84,"text":"Скажи коротко, что такое градиентный спуск","expected_call":{"tool_name":"none","arguments":{}},"needs_tool":0}
+{"id":85,"text":"Просто поздоровайся и ничего не вызывай","expected_call":{"tool_name":"none","arguments":{}},"needs_tool":0}
+{"id":86,"text":"Сколько будет 21 miles в kilometers","expected_call":{"tool_name":"convert_units","arguments":{"value":21,"from_unit":"miles","to_unit":"kilometers"}},"needs_tool":1}
+{"id":87,"text":"What can you do as a voice assistant","expected_call":{"tool_name":"none","arguments":{}},"needs_tool":0}
+{"id":88,"text":"What can you do as a voice assistant","expected_call":{"tool_name":"none","arguments":{}},"needs_tool":0}
+{"id":89,"text":"Сколько платит каждый если счет 180 EUR, людей 5, чаевые 15 процентов","expected_call":{"tool_name":"split_bill","arguments":{"amount":180,"people":5,"tip_percent":15,"currency":"EUR"}},"needs_tool":1}
+{"id":90,"text":"Раздели счет 48 USD на 7 человек с чаевыми 12 процентов","expected_call":{"tool_name":"split_bill","arguments":{"amount":48,"people":7,"tip_percent":12,"currency":"USD"}},"needs_tool":1}
+{"id":91,"text":"What can you do as a voice assistant","expected_call":{"tool_name":"none","arguments":{}},"needs_tool":0}
+{"id":92,"text":"How many miles are in 42 kilometers","expected_call":{"tool_name":"convert_units","arguments":{"value":42,"from_unit":"kilometers","to_unit":"miles"}},"needs_tool":1}
+{"id":93,"text":"We paid 72 EUR; divide it for 6 friends and add a 18 percent tip","expected_call":{"tool_name":"split_bill","arguments":{"amount":72,"people":6,"tip_percent":18,"currency":"EUR"}},"needs_tool":1}
+{"id":94,"text":"Сколько будет 5 kilometers в miles","expected_call":{"tool_name":"convert_units","arguments":{"value":5,"from_unit":"kilometers","to_unit":"miles"}},"needs_tool":1}
+{"id":95,"text":"Сколько платит каждый если счет 250 EUR, людей 7, чаевые 15 процентов","expected_call":{"tool_name":"split_bill","arguments":{"amount":250,"people":7,"tip_percent":15,"currency":"EUR"}},"needs_tool":1}
+{"id":96,"text":"We paid 96 RUB; divide it for 5 friends and add a 15 percent tip","expected_call":{"tool_name":"split_bill","arguments":{"amount":96,"people":5,"tip_percent":15,"currency":"RUB"}},"needs_tool":1}
+{"id":97,"text":"Tell me a short fun fact about machine learning","expected_call":{"tool_name":"none","arguments":{}},"needs_tool":0}
+{"id":98,"text":"How much should each person pay if dinner is 180 RUB, 5 people, tip 10 percent","expected_call":{"tool_name":"split_bill","arguments":{"amount":180,"people":5,"tip_percent":10,"currency":"RUB"}},"needs_tool":1}
+{"id":99,"text":"We paid 180 USD; divide it for 6 friends and add a 18 percent tip","expected_call":{"tool_name":"split_bill","arguments":{"amount":180,"people":6,"tip_percent":18,"currency":"USD"}},"needs_tool":1}
+{"id":100,"text":"What can you do as a voice assistant","expected_call":{"tool_name":"none","arguments":{}},"needs_tool":0}
+{"id":101,"text":"Переведи 21 miles в kilometers","expected_call":{"tool_name":"convert_units","arguments":{"value":21,"from_unit":"miles","to_unit":"kilometers"}},"needs_tool":1}
+{"id":102,"text":"Раздели счет 180 RUB на 7 человек с чаевыми 0 процентов","expected_call":{"tool_name":"split_bill","arguments":{"amount":180,"people":7,"tip_percent":0,"currency":"RUB"}},"needs_tool":1}
+{"id":103,"text":"What can you do as a voice assistant","expected_call":{"tool_name":"none","arguments":{}},"needs_tool":0}
+{"id":104,"text":"Сколько будет 7.5 pounds в kilograms","expected_call":{"tool_name":"convert_units","arguments":{"value":7.5,"from_unit":"pounds","to_unit":"kilograms"}},"needs_tool":1}
+{"id":105,"text":"Split a USD 72 bill between 6 people with 5% tip","expected_call":{"tool_name":"split_bill","arguments":{"amount":72,"people":6,"tip_percent":5,"currency":"USD"}},"needs_tool":1}
+{"id":106,"text":"Tell me a short fun fact about machine learning","expected_call":{"tool_name":"none","arguments":{}},"needs_tool":0}
+{"id":107,"text":"Tell me a short fun fact about machine learning","expected_call":{"tool_name":"none","arguments":{}},"needs_tool":0}
+{"id":108,"text":"Сколько платит каждый если счет 48 RUB, людей 6, чаевые 5 процентов","expected_call":{"tool_name":"split_bill","arguments":{"amount":48,"people":6,"tip_percent":5,"currency":"RUB"}},"needs_tool":1}
+{"id":109,"text":"Split a USD 35 bill between 4 people with 12% tip","expected_call":{"tool_name":"split_bill","arguments":{"amount":35,"people":4,"tip_percent":12,"currency":"USD"}},"needs_tool":1}
+{"id":110,"text":"How much should each person pay if dinner is 120 USD, 4 people, tip 18 percent","expected_call":{"tool_name":"split_bill","arguments":{"amount":120,"people":4,"tip_percent":18,"currency":"USD"}},"needs_tool":1}
+{"id":111,"text":"Сколько будет 100 kilometers в miles","expected_call":{"tool_name":"convert_units","arguments":{"value":100,"from_unit":"kilometers","to_unit":"miles"}},"needs_tool":1}
+{"id":112,"text":"Переведи 21 pounds в kilograms","expected_call":{"tool_name":"convert_units","arguments":{"value":21,"from_unit":"pounds","to_unit":"kilograms"}},"needs_tool":1}
+{"id":113,"text":"What can you do as a voice assistant","expected_call":{"tool_name":"none","arguments":{}},"needs_tool":0}
+{"id":114,"text":"How much should each person pay if dinner is 250 EUR, 2 people, tip 12 percent","expected_call":{"tool_name":"split_bill","arguments":{"amount":250,"people":2,"tip_percent":12,"currency":"EUR"}},"needs_tool":1}
+{"id":115,"text":"Please translate 10 miles into kilometers","expected_call":{"tool_name":"convert_units","arguments":{"value":10,"from_unit":"miles","to_unit":"kilometers"}},"needs_tool":1}
+{"id":116,"text":"Раздели счет 120 RUB на 4 человек с чаевыми 10 процентов","expected_call":{"tool_name":"split_bill","arguments":{"amount":120,"people":4,"tip_percent":10,"currency":"RUB"}},"needs_tool":1}
+{"id":117,"text":"How much should each person pay if dinner is 48 USD, 3 people, tip 12 percent","expected_call":{"tool_name":"split_bill","arguments":{"amount":48,"people":3,"tip_percent":12,"currency":"USD"}},"needs_tool":1}
+{"id":118,"text":"Сколько будет 21 feet в meters","expected_call":{"tool_name":"convert_units","arguments":{"value":21,"from_unit":"feet","to_unit":"meters"}},"needs_tool":1}
+{"id":119,"text":"We paid 48 RUB; divide it for 5 friends and add a 18 percent tip","expected_call":{"tool_name":"split_bill","arguments":{"amount":48,"people":5,"tip_percent":18,"currency":"RUB"}},"needs_tool":1}
+{"id":120,"text":"How much should each person pay if dinner is 72 EUR, 8 people, tip 0 percent","expected_call":{"tool_name":"split_bill","arguments":{"amount":72,"people":8,"tip_percent":0,"currency":"EUR"}},"needs_tool":1}
+{"id":121,"text":"Просто поздоровайся и ничего не вызывай","expected_call":{"tool_name":"none","arguments":{}},"needs_tool":0}
+{"id":122,"text":"How much should each person pay if dinner is 120 USD, 7 people, tip 10 percent","expected_call":{"tool_name":"split_bill","arguments":{"amount":120,"people":7,"tip_percent":10,"currency":"USD"}},"needs_tool":1}
+{"id":123,"text":"Tell me a short fun fact about machine learning","expected_call":{"tool_name":"none","arguments":{}},"needs_tool":0}
+{"id":124,"text":"Раздели счет 120 EUR на 5 человек с чаевыми 18 процентов","expected_call":{"tool_name":"split_bill","arguments":{"amount":120,"people":5,"tip_percent":18,"currency":"EUR"}},"needs_tool":1}
+{"id":125,"text":"How much should each person pay if dinner is 180 EUR, 4 people, tip 18 percent","expected_call":{"tool_name":"split_bill","arguments":{"amount":180,"people":4,"tip_percent":18,"currency":"EUR"}},"needs_tool":1}
+{"id":126,"text":"Сколько платит каждый если счет 250 RUB, людей 5, чаевые 18 процентов","expected_call":{"tool_name":"split_bill","arguments":{"amount":250,"people":5,"tip_percent":18,"currency":"RUB"}},"needs_tool":1}
+{"id":127,"text":"Please translate 42 meters into feet","expected_call":{"tool_name":"convert_units","arguments":{"value":42,"from_unit":"meters","to_unit":"feet"}},"needs_tool":1}
+{"id":128,"text":"How much should each person pay if dinner is 96 USD, 7 people, tip 5 percent","expected_call":{"tool_name":"split_bill","arguments":{"amount":96,"people":7,"tip_percent":5,"currency":"USD"}},"needs_tool":1}
+{"id":129,"text":"Please translate 12 miles into kilometers","expected_call":{"tool_name":"convert_units","arguments":{"value":12,"from_unit":"miles","to_unit":"kilometers"}},"needs_tool":1}
+{"id":130,"text":"Переведи 42 feet в meters","expected_call":{"tool_name":"convert_units","arguments":{"value":42,"from_unit":"feet","to_unit":"meters"}},"needs_tool":1}
+{"id":131,"text":"Split a RUB 35 bill between 8 people with 5% tip","expected_call":{"tool_name":"split_bill","arguments":{"amount":35,"people":8,"tip_percent":5,"currency":"RUB"}},"needs_tool":1}
+{"id":132,"text":"Convert 12 meters to feet","expected_call":{"tool_name":"convert_units","arguments":{"value":12,"from_unit":"meters","to_unit":"feet"}},"needs_tool":1}
+{"id":133,"text":"Please translate 100 kilograms into pounds","expected_call":{"tool_name":"convert_units","arguments":{"value":100,"from_unit":"kilograms","to_unit":"pounds"}},"needs_tool":1}
+{"id":134,"text":"Сколько будет 21 kilometers в miles","expected_call":{"tool_name":"convert_units","arguments":{"value":21,"from_unit":"kilometers","to_unit":"miles"}},"needs_tool":1}
+{"id":135,"text":"How many miles are in 3 kilometers","expected_call":{"tool_name":"convert_units","arguments":{"value":3,"from_unit":"kilometers","to_unit":"miles"}},"needs_tool":1}
+{"id":136,"text":"We paid 48 RUB; divide it for 5 friends and add a 5 percent tip","expected_call":{"tool_name":"split_bill","arguments":{"amount":48,"people":5,"tip_percent":5,"currency":"RUB"}},"needs_tool":1}
+{"id":137,"text":"Переведи 5 kilograms в pounds","expected_call":{"tool_name":"convert_units","arguments":{"value":5,"from_unit":"kilograms","to_unit":"pounds"}},"needs_tool":1}
+{"id":138,"text":"Convert 7.5 kilometers to miles","expected_call":{"tool_name":"convert_units","arguments":{"value":7.5,"from_unit":"kilometers","to_unit":"miles"}},"needs_tool":1}
+{"id":139,"text":"Сколько платит каждый если счет 96 RUB, людей 2, чаевые 5 процентов","expected_call":{"tool_name":"split_bill","arguments":{"amount":96,"people":2,"tip_percent":5,"currency":"RUB"}},"needs_tool":1}
+{"id":140,"text":"Просто поздоровайся и ничего не вызывай","expected_call":{"tool_name":"none","arguments":{}},"needs_tool":0}
+{"id":141,"text":"Please translate 21 meters into feet","expected_call":{"tool_name":"convert_units","arguments":{"value":21,"from_unit":"meters","to_unit":"feet"}},"needs_tool":1}
+{"id":142,"text":"How much should each person pay if dinner is 96 EUR, 4 people, tip 12 percent","expected_call":{"tool_name":"split_bill","arguments":{"amount":96,"people":4,"tip_percent":12,"currency":"EUR"}},"needs_tool":1}
+{"id":143,"text":"How much should each person pay if dinner is 96 EUR, 3 people, tip 0 percent","expected_call":{"tool_name":"split_bill","arguments":{"amount":96,"people":3,"tip_percent":0,"currency":"EUR"}},"needs_tool":1}
+{"id":144,"text":"How much should each person pay if dinner is 250 EUR, 5 people, tip 5 percent","expected_call":{"tool_name":"split_bill","arguments":{"amount":250,"people":5,"tip_percent":5,"currency":"EUR"}},"needs_tool":1}
+{"id":145,"text":"How many feet are in 42 meters","expected_call":{"tool_name":"convert_units","arguments":{"value":42,"from_unit":"meters","to_unit":"feet"}},"needs_tool":1}
+{"id":146,"text":"Сколько будет 42 kilometers в miles","expected_call":{"tool_name":"convert_units","arguments":{"value":42,"from_unit":"kilometers","to_unit":"miles"}},"needs_tool":1}
+{"id":147,"text":"Сколько будет 12 feet в meters","expected_call":{"tool_name":"convert_units","arguments":{"value":12,"from_unit":"feet","to_unit":"meters"}},"needs_tool":1}
+{"id":148,"text":"Раздели счет 120 EUR на 6 человек с чаевыми 15 процентов","expected_call":{"tool_name":"split_bill","arguments":{"amount":120,"people":6,"tip_percent":15,"currency":"EUR"}},"needs_tool":1}
+{"id":149,"text":"Сколько платит каждый если счет 72 USD, людей 4, чаевые 5 процентов","expected_call":{"tool_name":"split_bill","arguments":{"amount":72,"people":4,"tip_percent":5,"currency":"USD"}},"needs_tool":1}
+{"id":150,"text":"Скажи коротко, что такое градиентный спуск","expected_call":{"tool_name":"none","arguments":{}},"needs_tool":0}
+{"id":151,"text":"Convert 42 pounds to kilograms","expected_call":{"tool_name":"convert_units","arguments":{"value":42,"from_unit":"pounds","to_unit":"kilograms"}},"needs_tool":1}
+{"id":152,"text":"Скажи коротко, что такое градиентный спуск","expected_call":{"tool_name":"none","arguments":{}},"needs_tool":0}
+{"id":153,"text":"Сколько платит каждый если счет 48 RUB, людей 3, чаевые 12 процентов","expected_call":{"tool_name":"split_bill","arguments":{"amount":48,"people":3,"tip_percent":12,"currency":"RUB"}},"needs_tool":1}
+{"id":154,"text":"Раздели счет 48 RUB на 8 человек с чаевыми 10 процентов","expected_call":{"tool_name":"split_bill","arguments":{"amount":48,"people":8,"tip_percent":10,"currency":"RUB"}},"needs_tool":1}
+{"id":155,"text":"Раздели счет 180 EUR на 8 человек с чаевыми 10 процентов","expected_call":{"tool_name":"split_bill","arguments":{"amount":180,"people":8,"tip_percent":10,"currency":"EUR"}},"needs_tool":1}
+{"id":156,"text":"Сколько будет 10 miles в kilometers","expected_call":{"tool_name":"convert_units","arguments":{"value":10,"from_unit":"miles","to_unit":"kilometers"}},"needs_tool":1}
+{"id":157,"text":"How many kilograms are in 7.5 pounds","expected_call":{"tool_name":"convert_units","arguments":{"value":7.5,"from_unit":"pounds","to_unit":"kilograms"}},"needs_tool":1}
+{"id":158,"text":"Split a RUB 250 bill between 8 people with 18% tip","expected_call":{"tool_name":"split_bill","arguments":{"amount":250,"people":8,"tip_percent":18,"currency":"RUB"}},"needs_tool":1}
+{"id":159,"text":"Please translate 3 meters into feet","expected_call":{"tool_name":"convert_units","arguments":{"value":3,"from_unit":"meters","to_unit":"feet"}},"needs_tool":1}
+{"id":160,"text":"Скажи коротко, что такое градиентный спуск","expected_call":{"tool_name":"none","arguments":{}},"needs_tool":0}
+{"id":161,"text":"Раздели счет 120 USD на 7 человек с чаевыми 10 процентов","expected_call":{"tool_name":"split_bill","arguments":{"amount":120,"people":7,"tip_percent":10,"currency":"USD"}},"needs_tool":1}
+{"id":162,"text":"We paid 180 RUB; divide it for 2 friends and add a 5 percent tip","expected_call":{"tool_name":"split_bill","arguments":{"amount":180,"people":2,"tip_percent":5,"currency":"RUB"}},"needs_tool":1}
+{"id":163,"text":"How much should each person pay if dinner is 120 USD, 5 people, tip 15 percent","expected_call":{"tool_name":"split_bill","arguments":{"amount":120,"people":5,"tip_percent":15,"currency":"USD"}},"needs_tool":1}
+{"id":164,"text":"Раздели счет 72 EUR на 6 человек с чаевыми 0 процентов","expected_call":{"tool_name":"split_bill","arguments":{"amount":72,"people":6,"tip_percent":0,"currency":"EUR"}},"needs_tool":1}
+{"id":165,"text":"Split a RUB 72 bill between 3 people with 18% tip","expected_call":{"tool_name":"split_bill","arguments":{"amount":72,"people":3,"tip_percent":18,"currency":"RUB"}},"needs_tool":1}
+{"id":166,"text":"Please translate 3 kilometers into miles","expected_call":{"tool_name":"convert_units","arguments":{"value":3,"from_unit":"kilometers","to_unit":"miles"}},"needs_tool":1}
+{"id":167,"text":"Convert 12 meters to feet","expected_call":{"tool_name":"convert_units","arguments":{"value":12,"from_unit":"meters","to_unit":"feet"}},"needs_tool":1}
+{"id":168,"text":"Раздели счет 48 EUR на 8 человек с чаевыми 0 процентов","expected_call":{"tool_name":"split_bill","arguments":{"amount":48,"people":8,"tip_percent":0,"currency":"EUR"}},"needs_tool":1}
+{"id":169,"text":"Раздели счет 250 USD на 3 человек с чаевыми 5 процентов","expected_call":{"tool_name":"split_bill","arguments":{"amount":250,"people":3,"tip_percent":5,"currency":"USD"}},"needs_tool":1}
+{"id":170,"text":"Раздели счет 48 RUB на 6 человек с чаевыми 12 процентов","expected_call":{"tool_name":"split_bill","arguments":{"amount":48,"people":6,"tip_percent":12,"currency":"RUB"}},"needs_tool":1}
+{"id":171,"text":"How many kilograms are in 21 pounds","expected_call":{"tool_name":"convert_units","arguments":{"value":21,"from_unit":"pounds","to_unit":"kilograms"}},"needs_tool":1}
+{"id":172,"text":"Просто поздоровайся и ничего не вызывай","expected_call":{"tool_name":"none","arguments":{}},"needs_tool":0}
+{"id":173,"text":"Просто поздоровайся и ничего не вызывай","expected_call":{"tool_name":"none","arguments":{}},"needs_tool":0}
+{"id":174,"text":"Split a USD 48 bill between 7 people with 5% tip","expected_call":{"tool_name":"split_bill","arguments":{"amount":48,"people":7,"tip_percent":5,"currency":"USD"}},"needs_tool":1}
+{"id":175,"text":"Split a USD 180 bill between 6 people with 18% tip","expected_call":{"tool_name":"split_bill","arguments":{"amount":180,"people":6,"tip_percent":18,"currency":"USD"}},"needs_tool":1}
+{"id":176,"text":"Split a EUR 180 bill between 5 people with 5% tip","expected_call":{"tool_name":"split_bill","arguments":{"amount":180,"people":5,"tip_percent":5,"currency":"EUR"}},"needs_tool":1}
+{"id":177,"text":"Please translate 7.5 pounds into kilograms","expected_call":{"tool_name":"convert_units","arguments":{"value":7.5,"from_unit":"pounds","to_unit":"kilograms"}},"needs_tool":1}
+{"id":178,"text":"Сколько платит каждый если счет 72 EUR, людей 5, чаевые 0 процентов","expected_call":{"tool_name":"split_bill","arguments":{"amount":72,"people":5,"tip_percent":0,"currency":"EUR"}},"needs_tool":1}
+{"id":179,"text":"Переведи 12 meters в feet","expected_call":{"tool_name":"convert_units","arguments":{"value":12,"from_unit":"meters","to_unit":"feet"}},"needs_tool":1}
+{"id":180,"text":"Tell me a short fun fact about machine learning","expected_call":{"tool_name":"none","arguments":{}},"needs_tool":0}
+{"id":181,"text":"Переведи 10 meters в feet","expected_call":{"tool_name":"convert_units","arguments":{"value":10,"from_unit":"meters","to_unit":"feet"}},"needs_tool":1}
+{"id":182,"text":"Сколько платит каждый если счет 180 RUB, людей 6, чаевые 0 процентов","expected_call":{"tool_name":"split_bill","arguments":{"amount":180,"people":6,"tip_percent":0,"currency":"RUB"}},"needs_tool":1}
+{"id":183,"text":"Раздели счет 72 EUR на 7 человек с чаевыми 0 процентов","expected_call":{"tool_name":"split_bill","arguments":{"amount":72,"people":7,"tip_percent":0,"currency":"EUR"}},"needs_tool":1}
+{"id":184,"text":"Split a RUB 250 bill between 8 people with 15% tip","expected_call":{"tool_name":"split_bill","arguments":{"amount":250,"people":8,"tip_percent":15,"currency":"RUB"}},"needs_tool":1}
+{"id":185,"text":"Convert 12 kilometers to miles","expected_call":{"tool_name":"convert_units","arguments":{"value":12,"from_unit":"kilometers","to_unit":"miles"}},"needs_tool":1}
+{"id":186,"text":"Переведи 5 kilograms в pounds","expected_call":{"tool_name":"convert_units","arguments":{"value":5,"from_unit":"kilograms","to_unit":"pounds"}},"needs_tool":1}
+{"id":187,"text":"Сколько будет 42 pounds в kilograms","expected_call":{"tool_name":"convert_units","arguments":{"value":42,"from_unit":"pounds","to_unit":"kilograms"}},"needs_tool":1}
+{"id":188,"text":"Просто поздоровайся и ничего не вызывай","expected_call":{"tool_name":"none","arguments":{}},"needs_tool":0}
+{"id":189,"text":"How many feet are in 7.5 meters","expected_call":{"tool_name":"convert_units","arguments":{"value":7.5,"from_unit":"meters","to_unit":"feet"}},"needs_tool":1}
+{"id":190,"text":"How much should each person pay if dinner is 96 RUB, 2 people, tip 5 percent","expected_call":{"tool_name":"split_bill","arguments":{"amount":96,"people":2,"tip_percent":5,"currency":"RUB"}},"needs_tool":1}
+{"id":191,"text":"Сколько платит каждый если счет 35 RUB, людей 7, чаевые 0 процентов","expected_call":{"tool_name":"split_bill","arguments":{"amount":35,"people":7,"tip_percent":0,"currency":"RUB"}},"needs_tool":1}
+{"id":192,"text":"How much should each person pay if dinner is 250 USD, 4 people, tip 18 percent","expected_call":{"tool_name":"split_bill","arguments":{"amount":250,"people":4,"tip_percent":18,"currency":"USD"}},"needs_tool":1}
+{"id":193,"text":"Скажи коротко, что такое градиентный спуск","expected_call":{"tool_name":"none","arguments":{}},"needs_tool":0}
+{"id":194,"text":"We paid 96 EUR; divide it for 7 friends and add a 5 percent tip","expected_call":{"tool_name":"split_bill","arguments":{"amount":96,"people":7,"tip_percent":5,"currency":"EUR"}},"needs_tool":1}
+{"id":195,"text":"Convert 21 feet to meters","expected_call":{"tool_name":"convert_units","arguments":{"value":21,"from_unit":"feet","to_unit":"meters"}},"needs_tool":1}
+{"id":196,"text":"How many meters are in 7.5 feet","expected_call":{"tool_name":"convert_units","arguments":{"value":7.5,"from_unit":"feet","to_unit":"meters"}},"needs_tool":1}
+{"id":197,"text":"Переведи 100 kilograms в pounds","expected_call":{"tool_name":"convert_units","arguments":{"value":100,"from_unit":"kilograms","to_unit":"pounds"}},"needs_tool":1}
+{"id":198,"text":"How many meters are in 3 feet","expected_call":{"tool_name":"convert_units","arguments":{"value":3,"from_unit":"feet","to_unit":"meters"}},"needs_tool":1}
+{"id":199,"text":"How much should each person pay if dinner is 35 USD, 6 people, tip 12 percent","expected_call":{"tool_name":"split_bill","arguments":{"amount":35,"people":6,"tip_percent":12,"currency":"USD"}},"needs_tool":1}
+{"id":200,"text":"Сколько платит каждый если счет 120 EUR, людей 4, чаевые 10 процентов","expected_call":{"tool_name":"split_bill","arguments":{"amount":120,"people":4,"tip_percent":10,"currency":"EUR"}},"needs_tool":1}
+{"id":201,"text":"Сколько платит каждый если счет 120 USD, людей 8, чаевые 15 процентов","expected_call":{"tool_name":"split_bill","arguments":{"amount":120,"people":8,"tip_percent":15,"currency":"USD"}},"needs_tool":1}
+{"id":202,"text":"Split a RUB 72 bill between 8 people with 5% tip","expected_call":{"tool_name":"split_bill","arguments":{"amount":72,"people":8,"tip_percent":5,"currency":"RUB"}},"needs_tool":1}
+{"id":203,"text":"Convert 100 feet to meters","expected_call":{"tool_name":"convert_units","arguments":{"value":100,"from_unit":"feet","to_unit":"meters"}},"needs_tool":1}
+{"id":204,"text":"Convert 42 feet to meters","expected_call":{"tool_name":"convert_units","arguments":{"value":42,"from_unit":"feet","to_unit":"meters"}},"needs_tool":1}
+{"id":205,"text":"How much should each person pay if dinner is 35 RUB, 4 people, tip 5 percent","expected_call":{"tool_name":"split_bill","arguments":{"amount":35,"people":4,"tip_percent":5,"currency":"RUB"}},"needs_tool":1}
+{"id":206,"text":"Tell me a short fun fact about machine learning","expected_call":{"tool_name":"none","arguments":{}},"needs_tool":0}
+{"id":207,"text":"Сколько платит каждый если счет 35 RUB, людей 3, чаевые 18 процентов","expected_call":{"tool_name":"split_bill","arguments":{"amount":35,"people":3,"tip_percent":18,"currency":"RUB"}},"needs_tool":1}
+{"id":208,"text":"How much should each person pay if dinner is 96 USD, 6 people, tip 18 percent","expected_call":{"tool_name":"split_bill","arguments":{"amount":96,"people":6,"tip_percent":18,"currency":"USD"}},"needs_tool":1}
+{"id":209,"text":"Просто поздоровайся и ничего не вызывай","expected_call":{"tool_name":"none","arguments":{}},"needs_tool":0}
+{"id":210,"text":"Tell me a short fun fact about machine learning","expected_call":{"tool_name":"none","arguments":{}},"needs_tool":0}
+{"id":211,"text":"Скажи коротко, что такое градиентный спуск","expected_call":{"tool_name":"none","arguments":{}},"needs_tool":0}
+{"id":212,"text":"Please translate 100 kilometers into miles","expected_call":{"tool_name":"convert_units","arguments":{"value":100,"from_unit":"kilometers","to_unit":"miles"}},"needs_tool":1}
+{"id":213,"text":"Split a USD 180 bill between 2 people with 10% tip","expected_call":{"tool_name":"split_bill","arguments":{"amount":180,"people":2,"tip_percent":10,"currency":"USD"}},"needs_tool":1}
+{"id":214,"text":"Split a EUR 180 bill between 2 people with 12% tip","expected_call":{"tool_name":"split_bill","arguments":{"amount":180,"people":2,"tip_percent":12,"currency":"EUR"}},"needs_tool":1}
+{"id":215,"text":"Скажи коротко, что такое градиентный спуск","expected_call":{"tool_name":"none","arguments":{}},"needs_tool":0}
+{"id":216,"text":"Convert 10 feet to meters","expected_call":{"tool_name":"convert_units","arguments":{"value":10,"from_unit":"feet","to_unit":"meters"}},"needs_tool":1}
+{"id":217,"text":"Переведи 10 kilograms в pounds","expected_call":{"tool_name":"convert_units","arguments":{"value":10,"from_unit":"kilograms","to_unit":"pounds"}},"needs_tool":1}
+{"id":218,"text":"Convert 10 kilometers to miles","expected_call":{"tool_name":"convert_units","arguments":{"value":10,"from_unit":"kilometers","to_unit":"miles"}},"needs_tool":1}
+{"id":219,"text":"Сколько платит каждый если счет 120 RUB, людей 2, чаевые 12 процентов","expected_call":{"tool_name":"split_bill","arguments":{"amount":120,"people":2,"tip_percent":12,"currency":"RUB"}},"needs_tool":1}
+{"id":220,"text":"Сколько платит каждый если счет 48 USD, людей 3, чаевые 15 процентов","expected_call":{"tool_name":"split_bill","arguments":{"amount":48,"people":3,"tip_percent":15,"currency":"USD"}},"needs_tool":1}
+{"id":221,"text":"How many feet are in 42 meters","expected_call":{"tool_name":"convert_units","arguments":{"value":42,"from_unit":"meters","to_unit":"feet"}},"needs_tool":1}
+{"id":222,"text":"Convert 3 meters to feet","expected_call":{"tool_name":"convert_units","arguments":{"value":3,"from_unit":"meters","to_unit":"feet"}},"needs_tool":1}
+{"id":223,"text":"Сколько будет 7.5 kilograms в pounds","expected_call":{"tool_name":"convert_units","arguments":{"value":7.5,"from_unit":"kilograms","to_unit":"pounds"}},"needs_tool":1}
+{"id":224,"text":"How many kilograms are in 100 pounds","expected_call":{"tool_name":"convert_units","arguments":{"value":100,"from_unit":"pounds","to_unit":"kilograms"}},"needs_tool":1}
+{"id":225,"text":"Переведи 21 miles в kilometers","expected_call":{"tool_name":"convert_units","arguments":{"value":21,"from_unit":"miles","to_unit":"kilometers"}},"needs_tool":1}
+{"id":226,"text":"Переведи 7.5 kilometers в miles","expected_call":{"tool_name":"convert_units","arguments":{"value":7.5,"from_unit":"kilometers","to_unit":"miles"}},"needs_tool":1}
+{"id":227,"text":"Сколько платит каждый если счет 180 EUR, людей 5, чаевые 18 процентов","expected_call":{"tool_name":"split_bill","arguments":{"amount":180,"people":5,"tip_percent":18,"currency":"EUR"}},"needs_tool":1}
+{"id":228,"text":"Сколько платит каждый если счет 72 RUB, людей 2, чаевые 18 процентов","expected_call":{"tool_name":"split_bill","arguments":{"amount":72,"people":2,"tip_percent":18,"currency":"RUB"}},"needs_tool":1}
+{"id":229,"text":"We paid 72 EUR; divide it for 3 friends and add a 0 percent tip","expected_call":{"tool_name":"split_bill","arguments":{"amount":72,"people":3,"tip_percent":0,"currency":"EUR"}},"needs_tool":1}
+{"id":230,"text":"Скажи коротко, что такое градиентный спуск","expected_call":{"tool_name":"none","arguments":{}},"needs_tool":0}
+{"id":231,"text":"We paid 120 EUR; divide it for 2 friends and add a 0 percent tip","expected_call":{"tool_name":"split_bill","arguments":{"amount":120,"people":2,"tip_percent":0,"currency":"EUR"}},"needs_tool":1}
+{"id":232,"text":"Переведи 5 miles в kilometers","expected_call":{"tool_name":"convert_units","arguments":{"value":5,"from_unit":"miles","to_unit":"kilometers"}},"needs_tool":1}
+{"id":233,"text":"Сколько будет 7.5 kilograms в pounds","expected_call":{"tool_name":"convert_units","arguments":{"value":7.5,"from_unit":"kilograms","to_unit":"pounds"}},"needs_tool":1}
+{"id":234,"text":"Просто поздоровайся и ничего не вызывай","expected_call":{"tool_name":"none","arguments":{}},"needs_tool":0}
+{"id":235,"text":"How much should each person pay if dinner is 48 RUB, 2 people, tip 15 percent","expected_call":{"tool_name":"split_bill","arguments":{"amount":48,"people":2,"tip_percent":15,"currency":"RUB"}},"needs_tool":1}
+{"id":236,"text":"How much should each person pay if dinner is 72 RUB, 2 people, tip 12 percent","expected_call":{"tool_name":"split_bill","arguments":{"amount":72,"people":2,"tip_percent":12,"currency":"RUB"}},"needs_tool":1}
+{"id":237,"text":"Просто поздоровайся и ничего не вызывай","expected_call":{"tool_name":"none","arguments":{}},"needs_tool":0}
+{"id":238,"text":"Сколько будет 3 feet в meters","expected_call":{"tool_name":"convert_units","arguments":{"value":3,"from_unit":"feet","to_unit":"meters"}},"needs_tool":1}
+{"id":239,"text":"Split a EUR 48 bill between 8 people with 10% tip","expected_call":{"tool_name":"split_bill","arguments":{"amount":48,"people":8,"tip_percent":10,"currency":"EUR"}},"needs_tool":1}
+{"id":240,"text":"What can you do as a voice assistant","expected_call":{"tool_name":"none","arguments":{}},"needs_tool":0}
+{"id":241,"text":"Раздели счет 96 EUR на 7 человек с чаевыми 10 процентов","expected_call":{"tool_name":"split_bill","arguments":{"amount":96,"people":7,"tip_percent":10,"currency":"EUR"}},"needs_tool":1}
+{"id":242,"text":"Please translate 42 feet into meters","expected_call":{"tool_name":"convert_units","arguments":{"value":42,"from_unit":"feet","to_unit":"meters"}},"needs_tool":1}
+{"id":243,"text":"Скажи коротко, что такое градиентный спуск","expected_call":{"tool_name":"none","arguments":{}},"needs_tool":0}
+{"id":244,"text":"How much should each person pay if dinner is 120 USD, 2 people, tip 5 percent","expected_call":{"tool_name":"split_bill","arguments":{"amount":120,"people":2,"tip_percent":5,"currency":"USD"}},"needs_tool":1}
+{"id":245,"text":"Please translate 42 miles into kilometers","expected_call":{"tool_name":"convert_units","arguments":{"value":42,"from_unit":"miles","to_unit":"kilometers"}},"needs_tool":1}
+{"id":246,"text":"Сколько платит каждый если счет 35 USD, людей 3, чаевые 12 процентов","expected_call":{"tool_name":"split_bill","arguments":{"amount":35,"people":3,"tip_percent":12,"currency":"USD"}},"needs_tool":1}
+{"id":247,"text":"Сколько платит каждый если счет 120 RUB, людей 5, чаевые 5 процентов","expected_call":{"tool_name":"split_bill","arguments":{"amount":120,"people":5,"tip_percent":5,"currency":"RUB"}},"needs_tool":1}
+{"id":248,"text":"How much should each person pay if dinner is 120 RUB, 6 people, tip 12 percent","expected_call":{"tool_name":"split_bill","arguments":{"amount":120,"people":6,"tip_percent":12,"currency":"RUB"}},"needs_tool":1}
+{"id":249,"text":"How much should each person pay if dinner is 96 RUB, 3 people, tip 5 percent","expected_call":{"tool_name":"split_bill","arguments":{"amount":96,"people":3,"tip_percent":5,"currency":"RUB"}},"needs_tool":1}
+{"id":250,"text":"We paid 120 EUR; divide it for 8 friends and add a 5 percent tip","expected_call":{"tool_name":"split_bill","arguments":{"amount":120,"people":8,"tip_percent":5,"currency":"EUR"}},"needs_tool":1}
+{"id":251,"text":"Скажи коротко, что такое градиентный спуск","expected_call":{"tool_name":"none","arguments":{}},"needs_tool":0}
+{"id":252,"text":"Split a RUB 96 bill between 7 people with 12% tip","expected_call":{"tool_name":"split_bill","arguments":{"amount":96,"people":7,"tip_percent":12,"currency":"RUB"}},"needs_tool":1}
+{"id":253,"text":"Сколько будет 3 kilograms в pounds","expected_call":{"tool_name":"convert_units","arguments":{"value":3,"from_unit":"kilograms","to_unit":"pounds"}},"needs_tool":1}
+{"id":254,"text":"Сколько платит каждый если счет 72 USD, людей 8, чаевые 12 процентов","expected_call":{"tool_name":"split_bill","arguments":{"amount":72,"people":8,"tip_percent":12,"currency":"USD"}},"needs_tool":1}
+{"id":255,"text":"What can you do as a voice assistant","expected_call":{"tool_name":"none","arguments":{}},"needs_tool":0}
+{"id":256,"text":"Переведи 21 meters в feet","expected_call":{"tool_name":"convert_units","arguments":{"value":21,"from_unit":"meters","to_unit":"feet"}},"needs_tool":1}
+{"id":257,"text":"Сколько будет 3 feet в meters","expected_call":{"tool_name":"convert_units","arguments":{"value":3,"from_unit":"feet","to_unit":"meters"}},"needs_tool":1}
+{"id":258,"text":"Сколько платит каждый если счет 120 RUB, людей 4, чаевые 5 процентов","expected_call":{"tool_name":"split_bill","arguments":{"amount":120,"people":4,"tip_percent":5,"currency":"RUB"}},"needs_tool":1}
+{"id":259,"text":"We paid 250 USD; divide it for 7 friends and add a 0 percent tip","expected_call":{"tool_name":"split_bill","arguments":{"amount":250,"people":7,"tip_percent":0,"currency":"USD"}},"needs_tool":1}
+{"id":260,"text":"We paid 96 EUR; divide it for 6 friends and add a 12 percent tip","expected_call":{"tool_name":"split_bill","arguments":{"amount":96,"people":6,"tip_percent":12,"currency":"EUR"}},"needs_tool":1}
+{"id":261,"text":"Split a RUB 48 bill between 4 people with 0% tip","expected_call":{"tool_name":"split_bill","arguments":{"amount":48,"people":4,"tip_percent":0,"currency":"RUB"}},"needs_tool":1}
+{"id":262,"text":"Tell me a short fun fact about machine learning","expected_call":{"tool_name":"none","arguments":{}},"needs_tool":0}
+{"id":263,"text":"Сколько платит каждый если счет 35 EUR, людей 5, чаевые 15 процентов","expected_call":{"tool_name":"split_bill","arguments":{"amount":35,"people":5,"tip_percent":15,"currency":"EUR"}},"needs_tool":1}
+{"id":264,"text":"Tell me a short fun fact about machine learning","expected_call":{"tool_name":"none","arguments":{}},"needs_tool":0}
+{"id":265,"text":"Split a USD 72 bill between 4 people with 0% tip","expected_call":{"tool_name":"split_bill","arguments":{"amount":72,"people":4,"tip_percent":0,"currency":"USD"}},"needs_tool":1}
+{"id":266,"text":"Переведи 7.5 feet в meters","expected_call":{"tool_name":"convert_units","arguments":{"value":7.5,"from_unit":"feet","to_unit":"meters"}},"needs_tool":1}
+{"id":267,"text":"Раздели счет 35 RUB на 8 человек с чаевыми 5 процентов","expected_call":{"tool_name":"split_bill","arguments":{"amount":35,"people":8,"tip_percent":5,"currency":"RUB"}},"needs_tool":1}
+{"id":268,"text":"We paid 48 EUR; divide it for 2 friends and add a 0 percent tip","expected_call":{"tool_name":"split_bill","arguments":{"amount":48,"people":2,"tip_percent":0,"currency":"EUR"}},"needs_tool":1}
+{"id":269,"text":"Раздели счет 96 RUB на 8 человек с чаевыми 0 процентов","expected_call":{"tool_name":"split_bill","arguments":{"amount":96,"people":8,"tip_percent":0,"currency":"RUB"}},"needs_tool":1}
+{"id":270,"text":"Convert 7.5 kilometers to miles","expected_call":{"tool_name":"convert_units","arguments":{"value":7.5,"from_unit":"kilometers","to_unit":"miles"}},"needs_tool":1}
+{"id":271,"text":"Переведи 42 kilometers в miles","expected_call":{"tool_name":"convert_units","arguments":{"value":42,"from_unit":"kilometers","to_unit":"miles"}},"needs_tool":1}
+{"id":272,"text":"Please translate 100 feet into meters","expected_call":{"tool_name":"convert_units","arguments":{"value":100,"from_unit":"feet","to_unit":"meters"}},"needs_tool":1}
+{"id":273,"text":"How many meters are in 3 feet","expected_call":{"tool_name":"convert_units","arguments":{"value":3,"from_unit":"feet","to_unit":"meters"}},"needs_tool":1}
+{"id":274,"text":"Сколько платит каждый если счет 35 RUB, людей 4, чаевые 18 процентов","expected_call":{"tool_name":"split_bill","arguments":{"amount":35,"people":4,"tip_percent":18,"currency":"RUB"}},"needs_tool":1}
+{"id":275,"text":"We paid 35 USD; divide it for 4 friends and add a 5 percent tip","expected_call":{"tool_name":"split_bill","arguments":{"amount":35,"people":4,"tip_percent":5,"currency":"USD"}},"needs_tool":1}
+{"id":276,"text":"Переведи 12 meters в feet","expected_call":{"tool_name":"convert_units","arguments":{"value":12,"from_unit":"meters","to_unit":"feet"}},"needs_tool":1}
+{"id":277,"text":"Convert 10 meters to feet","expected_call":{"tool_name":"convert_units","arguments":{"value":10,"from_unit":"meters","to_unit":"feet"}},"needs_tool":1}
+{"id":278,"text":"How much should each person pay if dinner is 180 RUB, 2 people, tip 15 percent","expected_call":{"tool_name":"split_bill","arguments":{"amount":180,"people":2,"tip_percent":15,"currency":"RUB"}},"needs_tool":1}
+{"id":279,"text":"We paid 250 EUR; divide it for 6 friends and add a 15 percent tip","expected_call":{"tool_name":"split_bill","arguments":{"amount":250,"people":6,"tip_percent":15,"currency":"EUR"}},"needs_tool":1}
+{"id":280,"text":"Переведи 7.5 kilograms в pounds","expected_call":{"tool_name":"convert_units","arguments":{"value":7.5,"from_unit":"kilograms","to_unit":"pounds"}},"needs_tool":1}
+{"id":281,"text":"Раздели счет 120 RUB на 6 человек с чаевыми 10 процентов","expected_call":{"tool_name":"split_bill","arguments":{"amount":120,"people":6,"tip_percent":10,"currency":"RUB"}},"needs_tool":1}
+{"id":282,"text":"Сколько платит каждый если счет 180 USD, людей 8, чаевые 10 процентов","expected_call":{"tool_name":"split_bill","arguments":{"amount":180,"people":8,"tip_percent":10,"currency":"USD"}},"needs_tool":1}
+{"id":283,"text":"How much should each person pay if dinner is 72 EUR, 8 people, tip 15 percent","expected_call":{"tool_name":"split_bill","arguments":{"amount":72,"people":8,"tip_percent":15,"currency":"EUR"}},"needs_tool":1}
+{"id":284,"text":"We paid 250 USD; divide it for 6 friends and add a 5 percent tip","expected_call":{"tool_name":"split_bill","arguments":{"amount":250,"people":6,"tip_percent":5,"currency":"USD"}},"needs_tool":1}
+{"id":285,"text":"Please translate 21 pounds into kilograms","expected_call":{"tool_name":"convert_units","arguments":{"value":21,"from_unit":"pounds","to_unit":"kilograms"}},"needs_tool":1}
+{"id":286,"text":"Please translate 5 pounds into kilograms","expected_call":{"tool_name":"convert_units","arguments":{"value":5,"from_unit":"pounds","to_unit":"kilograms"}},"needs_tool":1}
+{"id":287,"text":"Раздели счет 96 RUB на 6 человек с чаевыми 12 процентов","expected_call":{"tool_name":"split_bill","arguments":{"amount":96,"people":6,"tip_percent":12,"currency":"RUB"}},"needs_tool":1}
+{"id":288,"text":"Переведи 21 feet в meters","expected_call":{"tool_name":"convert_units","arguments":{"value":21,"from_unit":"feet","to_unit":"meters"}},"needs_tool":1}
+{"id":289,"text":"Convert 42 meters to feet","expected_call":{"tool_name":"convert_units","arguments":{"value":42,"from_unit":"meters","to_unit":"feet"}},"needs_tool":1}
+{"id":290,"text":"Please translate 42 pounds into kilograms","expected_call":{"tool_name":"convert_units","arguments":{"value":42,"from_unit":"pounds","to_unit":"kilograms"}},"needs_tool":1}
+{"id":291,"text":"Please translate 100 kilometers into miles","expected_call":{"tool_name":"convert_units","arguments":{"value":100,"from_unit":"kilometers","to_unit":"miles"}},"needs_tool":1}
+{"id":292,"text":"How much should each person pay if dinner is 35 RUB, 6 people, tip 0 percent","expected_call":{"tool_name":"split_bill","arguments":{"amount":35,"people":6,"tip_percent":0,"currency":"RUB"}},"needs_tool":1}
+{"id":293,"text":"Please translate 3 kilometers into miles","expected_call":{"tool_name":"convert_units","arguments":{"value":3,"from_unit":"kilometers","to_unit":"miles"}},"needs_tool":1}
+{"id":294,"text":"Split a EUR 96 bill between 4 people with 18% tip","expected_call":{"tool_name":"split_bill","arguments":{"amount":96,"people":4,"tip_percent":18,"currency":"EUR"}},"needs_tool":1}
+{"id":295,"text":"Split a USD 35 bill between 2 people with 5% tip","expected_call":{"tool_name":"split_bill","arguments":{"amount":35,"people":2,"tip_percent":5,"currency":"USD"}},"needs_tool":1}
+{"id":296,"text":"Сколько будет 100 kilometers в miles","expected_call":{"tool_name":"convert_units","arguments":{"value":100,"from_unit":"kilometers","to_unit":"miles"}},"needs_tool":1}
+{"id":297,"text":"How many feet are in 3 meters","expected_call":{"tool_name":"convert_units","arguments":{"value":3,"from_unit":"meters","to_unit":"feet"}},"needs_tool":1}
+{"id":298,"text":"Split a RUB 96 bill between 3 people with 0% tip","expected_call":{"tool_name":"split_bill","arguments":{"amount":96,"people":3,"tip_percent":0,"currency":"RUB"}},"needs_tool":1}
+{"id":299,"text":"Tell me a short fun fact about machine learning","expected_call":{"tool_name":"none","arguments":{}},"needs_tool":0}

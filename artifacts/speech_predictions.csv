@@ -1,0 +1,601 @@
+pipeline,id,expected_tool,predicted_tool,valid,answer,recognized_text
+text,0,split_bill,split_bill,True,Total with tip is 141.6 USD. Each person pays 23.6 USD.,
+text,1,none,none,True,No tool is needed for this request.,
+text,2,convert_units,convert_units,True,100 kilograms is 220.462 pounds.,
+text,3,split_bill,split_bill,True,Total with tip is 120.0 EUR. Each person pays 60.0 EUR.,
+text,4,split_bill,split_bill,True,Total with tip is 280.0 RUB. Each person pays 40.0 RUB.,
+text,5,split_bill,split_bill,True,Total with tip is 79.2 EUR. Each person pays 19.8 EUR.,
+text,6,convert_units,convert_units,True,21 kilometers is 13.0488 miles.,
+text,7,convert_units,convert_units,True,12 feet is 3.6576 meters.,
+text,8,none,none,True,No tool is needed for this request.,
+text,9,split_bill,split_bill,True,Total with tip is 198.0 EUR. Each person pays 49.5 EUR.,
+text,10,split_bill,split_bill,True,Total with tip is 134.4 USD. Each person pays 22.4 USD.,
+text,11,convert_units,convert_units,True,100 feet is 30.48 meters.,
+text,12,split_bill,split_bill,True,Total with tip is 107.52 RUB. Each person pays 17.92 RUB.,
+text,13,convert_units,convert_units,True,10 miles is 16.0934 kilometers.,
+text,14,none,none,True,No tool is needed for this request.,
+text,15,convert_units,convert_units,True,42 feet is 12.8016 meters.,
+text,16,convert_units,convert_units,True,10 kilometers is 6.2137 miles.,
+text,17,convert_units,convert_units,True,12 kilograms is 26.4554 pounds.,
+text,18,convert_units,convert_units,True,12 kilograms is 26.4554 pounds.,
+text,19,convert_units,convert_units,True,42 feet is 12.8016 meters.,
+text,20,split_bill,split_bill,True,Total with tip is 72.0 USD. Each person pays 36.0 USD.,
+text,21,none,none,True,No tool is needed for this request.,
+text,22,split_bill,split_bill,True,Total with tip is 56.64 EUR. Each person pays 14.16 EUR.,
+text,23,convert_units,convert_units,True,100 feet is 30.48 meters.,
+text,24,convert_units,convert_units,True,3 meters is 9.8425 feet.,
+text,25,convert_units,convert_units,True,5 feet is 1.524 meters.,
+text,26,split_bill,split_bill,True,Total with tip is 56.64 EUR. Each person pays 11.33 EUR.,
+text,27,convert_units,convert_units,True,100 meters is 328.084 feet.,
+text,28,split_bill,split_bill,True,Total with tip is 262.5 EUR. Each person pays 52.5 EUR.,
+text,29,split_bill,split_bill,True,Total with tip is 110.4 USD. Each person pays 18.4 USD.,
+text,30,convert_units,convert_units,True,10 kilometers is 6.2137 miles.,
+text,31,split_bill,split_bill,True,Total with tip is 141.6 RUB. Each person pays 35.4 RUB.,
+text,32,split_bill,split_bill,True,Total with tip is 82.8 RUB. Each person pays 11.83 RUB.,
+text,33,convert_units,convert_units,True,7.5 kilograms is 16.5346 pounds.,
+text,34,convert_units,convert_units,True,7.5 kilograms is 16.5346 pounds.,
+text,35,split_bill,split_bill,True,Total with tip is 100.8 USD. Each person pays 14.4 USD.,
+text,36,split_bill,split_bill,True,Total with tip is 100.8 RUB. Each person pays 20.16 RUB.,
+text,37,split_bill,split_bill,True,Total with tip is 35.0 USD. Each person pays 7.0 USD.,
+text,38,convert_units,convert_units,True,3 kilometers is 1.8641 miles.,
+text,39,convert_units,convert_units,True,12 feet is 3.6576 meters.,
+text,40,none,none,True,No tool is needed for this request.,
+text,41,none,none,True,No tool is needed for this request.,
+text,42,split_bill,split_bill,True,Total with tip is 134.4 RUB. Each person pays 44.8 RUB.,
+text,43,convert_units,convert_units,True,10 pounds is 4.5359 kilograms.,
+text,44,convert_units,convert_units,True,3 miles is 4.828 kilometers.,
+text,45,split_bill,split_bill,True,Total with tip is 120.0 EUR. Each person pays 15.0 EUR.,
+text,46,convert_units,convert_units,True,3 miles is 4.828 kilometers.,
+text,47,split_bill,split_bill,True,Total with tip is 126.0 RUB. Each person pays 42.0 RUB.,
+text,48,split_bill,split_bill,True,Total with tip is 107.52 USD. Each person pays 17.92 USD.,
+text,49,split_bill,split_bill,True,Total with tip is 79.2 EUR. Each person pays 26.4 EUR.,
+text,50,none,none,True,No tool is needed for this request.,
+text,51,split_bill,split_bill,True,Total with tip is 55.2 EUR. Each person pays 13.8 EUR.,
+text,52,split_bill,split_bill,True,Total with tip is 275.0 USD. Each person pays 45.83 USD.,
+text,53,split_bill,split_bill,True,Total with tip is 41.3 EUR. Each person pays 8.26 EUR.,
+text,54,convert_units,convert_units,True,7.5 kilometers is 4.6603 miles.,
+text,55,none,none,True,No tool is needed for this request.,
+text,56,convert_units,convert_units,True,10 kilometers is 6.2137 miles.,
+text,57,convert_units,convert_units,True,10 kilograms is 22.0462 pounds.,
+text,58,convert_units,convert_units,True,7.5 kilometers is 4.6603 miles.,
+text,59,split_bill,split_bill,True,Total with tip is 96.0 RUB. Each person pays 32.0 RUB.,
+text,60,convert_units,convert_units,True,7.5 pounds is 3.4019 kilograms.,
+text,61,convert_units,convert_units,True,12 kilograms is 26.4554 pounds.,
+text,62,split_bill,split_bill,True,Total with tip is 79.2 EUR. Each person pays 26.4 EUR.,
+text,63,split_bill,split_bill,True,Total with tip is 275.0 EUR. Each person pays 34.38 EUR.,
+text,64,split_bill,split_bill,True,Total with tip is 52.8 USD. Each person pays 26.4 USD.,
+text,65,convert_units,convert_units,True,21 meters is 68.8976 feet.,
+text,66,convert_units,convert_units,True,3 feet is 0.9144 meters.,
+text,67,convert_units,convert_units,True,100 feet is 30.48 meters.,
+text,68,convert_units,convert_units,True,12 feet is 3.6576 meters.,
+text,69,none,none,True,No tool is needed for this request.,
+text,70,split_bill,split_bill,True,Total with tip is 180.0 EUR. Each person pays 36.0 EUR.,
+text,71,split_bill,split_bill,True,Total with tip is 250.0 EUR. Each person pays 31.25 EUR.,
+text,72,split_bill,split_bill,True,Total with tip is 38.5 USD. Each person pays 6.42 USD.,
+text,73,split_bill,split_bill,True,Total with tip is 40.25 USD. Each person pays 13.42 USD.,
+text,74,split_bill,split_bill,True,Total with tip is 138.0 RUB. Each person pays 34.5 RUB.,
+text,75,split_bill,split_bill,True,Total with tip is 132.0 EUR. Each person pays 44.0 EUR.,
+text,76,split_bill,split_bill,True,Total with tip is 295.0 USD. Each person pays 59.0 USD.,
+text,77,split_bill,split_bill,True,Total with tip is 41.3 RUB. Each person pays 5.9 RUB.,
+text,78,split_bill,split_bill,True,Total with tip is 75.6 USD. Each person pays 9.45 USD.,
+text,79,split_bill,split_bill,True,Total with tip is 134.4 EUR. Each person pays 26.88 EUR.,
+text,80,split_bill,split_bill,True,Total with tip is 180.0 USD. Each person pays 30.0 USD.,
+text,81,split_bill,split_bill,True,Total with tip is 287.5 EUR. Each person pays 35.94 EUR.,
+text,82,convert_units,convert_units,True,21 kilometers is 13.0488 miles.,
+text,83,convert_units,convert_units,True,10 feet is 3.048 meters.,
+text,84,none,none,True,No tool is needed for this request.,
+text,85,none,none,True,No tool is needed for this request.,
+text,86,convert_units,convert_units,True,21 miles is 33.7961 kilometers.,
+text,87,none,none,True,No tool is needed for this request.,
+text,88,none,none,True,No tool is needed for this request.,
+text,89,split_bill,split_bill,True,Total with tip is 207.0 EUR. Each person pays 41.4 EUR.,
+text,90,split_bill,split_bill,True,Total with tip is 53.76 USD. Each person pays 7.68 USD.,
+text,91,none,none,True,No tool is needed for this request.,
+text,92,convert_units,convert_units,True,42 kilometers is 26.0976 miles.,
+text,93,split_bill,split_bill,True,Total with tip is 84.96 EUR. Each person pays 14.16 EUR.,
+text,94,convert_units,convert_units,True,5 kilometers is 3.1069 miles.,
+text,95,split_bill,split_bill,True,Total with tip is 287.5 EUR. Each person pays 41.07 EUR.,
+text,96,split_bill,split_bill,True,Total with tip is 110.4 RUB. Each person pays 22.08 RUB.,
+text,97,none,none,True,No tool is needed for this request.,
+text,98,split_bill,split_bill,True,Total with tip is 198.0 RUB. Each person pays 39.6 RUB.,
+text,99,split_bill,split_bill,True,Total with tip is 212.4 USD. Each person pays 35.4 USD.,
+text,100,none,none,True,No tool is needed for this request.,
+text,101,convert_units,convert_units,True,21 miles is 33.7961 kilometers.,
+text,102,split_bill,split_bill,True,Total with tip is 180.0 RUB. Each person pays 25.71 RUB.,
+text,103,none,none,True,No tool is needed for this request.,
+text,104,convert_units,convert_units,True,7.5 pounds is 3.4019 kilograms.,
+text,105,split_bill,split_bill,True,Total with tip is 75.6 USD. Each person pays 12.6 USD.,
+text,106,none,none,True,No tool is needed for this request.,
+text,107,none,none,True,No tool is needed for this request.,
+text,108,split_bill,split_bill,True,Total with tip is 50.4 RUB. Each person pays 8.4 RUB.,
+text,109,split_bill,split_bill,True,Total with tip is 39.2 USD. Each person pays 9.8 USD.,
+text,110,split_bill,split_bill,True,Total with tip is 141.6 USD. Each person pays 35.4 USD.,
+text,111,convert_units,convert_units,True,100 kilometers is 62.1371 miles.,
+text,112,convert_units,convert_units,True,21 pounds is 9.5254 kilograms.,
+text,113,none,none,True,No tool is needed for this request.,
+text,114,split_bill,split_bill,True,Total with tip is 280.0 EUR. Each person pays 140.0 EUR.,
+text,115,convert_units,convert_units,True,10 miles is 16.0934 kilometers.,
+text,116,split_bill,split_bill,True,Total with tip is 132.0 RUB. Each person pays 33.0 RUB.,
+text,117,split_bill,split_bill,True,Total with tip is 53.76 USD. Each person pays 17.92 USD.,
+text,118,convert_units,convert_units,True,21 feet is 6.4008 meters.,
+text,119,split_bill,split_bill,True,Total with tip is 56.64 RUB. Each person pays 11.33 RUB.,
+text,120,split_bill,split_bill,True,Total with tip is 72.0 EUR. Each person pays 9.0 EUR.,
+text,121,none,none,True,No tool is needed for this request.,
+text,122,split_bill,split_bill,True,Total with tip is 132.0 USD. Each person pays 18.86 USD.,
+text,123,none,none,True,No tool is needed for this request.,
+text,124,split_bill,split_bill,True,Total with tip is 141.6 EUR. Each person pays 28.32 EUR.,
+text,125,split_bill,split_bill,True,Total with tip is 212.4 EUR. Each person pays 53.1 EUR.,
+text,126,split_bill,split_bill,True,Total with tip is 295.0 RUB. Each person pays 59.0 RUB.,
+text,127,convert_units,convert_units,True,42 meters is 137.795 feet.,
+text,128,split_bill,split_bill,True,Total with tip is 100.8 USD. Each person pays 14.4 USD.,
+text,129,convert_units,convert_units,True,12 miles is 19.3121 kilometers.,
+text,130,convert_units,convert_units,True,42 feet is 12.8016 meters.,
+text,131,split_bill,split_bill,True,Total with tip is 36.75 RUB. Each person pays 4.59 RUB.,
+text,132,convert_units,convert_units,True,12 meters is 39.3701 feet.,
+text,133,convert_units,convert_units,True,100 kilograms is 220.462 pounds.,
+text,134,convert_units,convert_units,True,21 kilometers is 13.0488 miles.,
+text,135,convert_units,convert_units,True,3 kilometers is 1.8641 miles.,
+text,136,split_bill,split_bill,True,Total with tip is 50.4 RUB. Each person pays 10.08 RUB.,
+text,137,convert_units,convert_units,True,5 kilograms is 11.0231 pounds.,
+text,138,convert_units,convert_units,True,7.5 kilometers is 4.6603 miles.,
+text,139,split_bill,split_bill,True,Total with tip is 100.8 RUB. Each person pays 50.4 RUB.,
+text,140,none,none,True,No tool is needed for this request.,
+text,141,convert_units,convert_units,True,21 meters is 68.8976 feet.,
+text,142,split_bill,split_bill,True,Total with tip is 107.52 EUR. Each person pays 26.88 EUR.,
+text,143,split_bill,split_bill,True,Total with tip is 96.0 EUR. Each person pays 32.0 EUR.,
+text,144,split_bill,split_bill,True,Total with tip is 262.5 EUR. Each person pays 52.5 EUR.,
+text,145,convert_units,convert_units,True,42 meters is 137.795 feet.,
+text,146,convert_units,convert_units,True,42 kilometers is 26.0976 miles.,
+text,147,convert_units,convert_units,True,12 feet is 3.6576 meters.,
+text,148,split_bill,split_bill,True,Total with tip is 138.0 EUR. Each person pays 23.0 EUR.,
+text,149,split_bill,split_bill,True,Total with tip is 75.6 USD. Each person pays 18.9 USD.,
+text,150,none,none,True,No tool is needed for this request.,
+text,151,convert_units,convert_units,True,42 pounds is 19.0509 kilograms.,
+text,152,none,none,True,No tool is needed for this request.,
+text,153,split_bill,split_bill,True,Total with tip is 53.76 RUB. Each person pays 17.92 RUB.,
+text,154,split_bill,split_bill,True,Total with tip is 52.8 RUB. Each person pays 6.6 RUB.,
+text,155,split_bill,split_bill,True,Total with tip is 198.0 EUR. Each person pays 24.75 EUR.,
+text,156,convert_units,convert_units,True,10 miles is 16.0934 kilometers.,
+text,157,convert_units,convert_units,True,7.5 pounds is 3.4019 kilograms.,
+text,158,split_bill,split_bill,True,Total with tip is 295.0 RUB. Each person pays 36.88 RUB.,
+text,159,convert_units,convert_units,True,3 meters is 9.8425 feet.,
+text,160,none,none,True,No tool is needed for this request.,
+text,161,split_bill,split_bill,True,Total with tip is 132.0 USD. Each person pays 18.86 USD.,
+text,162,split_bill,split_bill,True,Total with tip is 189.0 RUB. Each person pays 94.5 RUB.,
+text,163,split_bill,split_bill,True,Total with tip is 138.0 USD. Each person pays 27.6 USD.,
+text,164,split_bill,split_bill,True,Total with tip is 72.0 EUR. Each person pays 12.0 EUR.,
+text,165,split_bill,split_bill,True,Total with tip is 84.96 RUB. Each person pays 28.32 RUB.,
+text,166,convert_units,convert_units,True,3 kilometers is 1.8641 miles.,
+text,167,convert_units,convert_units,True,12 meters is 39.3701 feet.,
+text,168,split_bill,split_bill,True,Total with tip is 48.0 EUR. Each person pays 6.0 EUR.,
+text,169,split_bill,split_bill,True,Total with tip is 262.5 USD. Each person pays 87.5 USD.,
+text,170,split_bill,split_bill,True,Total with tip is 53.76 RUB. Each person pays 8.96 RUB.,
+text,171,convert_units,convert_units,True,21 pounds is 9.5254 kilograms.,
+text,172,none,none,True,No tool is needed for this request.,
+text,173,none,none,True,No tool is needed for this request.,
+text,174,split_bill,split_bill,True,Total with tip is 50.4 USD. Each person pays 7.2 USD.,
+text,175,split_bill,split_bill,True,Total with tip is 212.4 USD. Each person pays 35.4 USD.,
+text,176,split_bill,split_bill,True,Total with tip is 189.0 EUR. Each person pays 37.8 EUR.,
+text,177,convert_units,convert_units,True,7.5 pounds is 3.4019 kilograms.,
+text,178,split_bill,split_bill,True,Total with tip is 72.0 EUR. Each person pays 14.4 EUR.,
+text,179,convert_units,convert_units,True,12 meters is 39.3701 feet.,
+text,180,none,none,True,No tool is needed for this request.,
+text,181,convert_units,convert_units,True,10 meters is 32.8084 feet.,
+text,182,split_bill,split_bill,True,Total with tip is 180.0 RUB. Each person pays 30.0 RUB.,
+text,183,split_bill,split_bill,True,Total with tip is 72.0 EUR. Each person pays 10.29 EUR.,
+text,184,split_bill,split_bill,True,Total with tip is 287.5 RUB. Each person pays 35.94 RUB.,
+text,185,convert_units,convert_units,True,12 kilometers is 7.4565 miles.,
+text,186,convert_units,convert_units,True,5 kilograms is 11.0231 pounds.,
+text,187,convert_units,convert_units,True,42 pounds is 19.0509 kilograms.,
+text,188,none,none,True,No tool is needed for this request.,
+text,189,convert_units,convert_units,True,7.5 meters is 24.6063 feet.,
+text,190,split_bill,split_bill,True,Total with tip is 100.8 RUB. Each person pays 50.4 RUB.,
+text,191,split_bill,split_bill,True,Total with tip is 35.0 RUB. Each person pays 5.0 RUB.,
+text,192,split_bill,split_bill,True,Total with tip is 295.0 USD. Each person pays 73.75 USD.,
+text,193,none,none,True,No tool is needed for this request.,
+text,194,split_bill,split_bill,True,Total with tip is 100.8 EUR. Each person pays 14.4 EUR.,
+text,195,convert_units,convert_units,True,21 feet is 6.4008 meters.,
+text,196,convert_units,convert_units,True,7.5 feet is 2.286 meters.,
+text,197,convert_units,convert_units,True,100 kilograms is 220.462 pounds.,
+text,198,convert_units,convert_units,True,3 feet is 0.9144 meters.,
+text,199,split_bill,split_bill,True,Total with tip is 39.2 USD. Each person pays 6.53 USD.,
+text,200,split_bill,split_bill,True,Total with tip is 132.0 EUR. Each person pays 33.0 EUR.,
+text,201,split_bill,split_bill,True,Total with tip is 138.0 USD. Each person pays 17.25 USD.,
+text,202,split_bill,split_bill,True,Total with tip is 75.6 RUB. Each person pays 9.45 RUB.,
+text,203,convert_units,convert_units,True,100 feet is 30.48 meters.,
+text,204,convert_units,convert_units,True,42 feet is 12.8016 meters.,
+text,205,split_bill,split_bill,True,Total with tip is 36.75 RUB. Each person pays 9.19 RUB.,
+text,206,none,none,True,No tool is needed for this request.,
+text,207,split_bill,split_bill,True,Total with tip is 41.3 RUB. Each person pays 13.77 RUB.,
+text,208,split_bill,split_bill,True,Total with tip is 113.28 USD. Each person pays 18.88 USD.,
+text,209,none,none,True,No tool is needed for this request.,
+text,210,none,none,True,No tool is needed for this request.,
+text,211,none,none,True,No tool is needed for this request.,
+text,212,convert_units,convert_units,True,100 kilometers is 62.1371 miles.,
+text,213,split_bill,split_bill,True,Total with tip is 198.0 USD. Each person pays 99.0 USD.,
+text,214,split_bill,split_bill,True,Total with tip is 201.6 EUR. Each person pays 100.8 EUR.,
+text,215,none,none,True,No tool is needed for this request.,
+text,216,convert_units,convert_units,True,10 feet is 3.048 meters.,
+text,217,convert_units,convert_units,True,10 kilograms is 22.0462 pounds.,
+text,218,convert_units,convert_units,True,10 kilometers is 6.2137 miles.,
+text,219,split_bill,split_bill,True,Total with tip is 134.4 RUB. Each person pays 67.2 RUB.,
+text,220,split_bill,split_bill,True,Total with tip is 55.2 USD. Each person pays 18.4 USD.,
+text,221,convert_units,convert_units,True,42 meters is 137.795 feet.,
+text,222,convert_units,convert_units,True,3 meters is 9.8425 feet.,
+text,223,convert_units,convert_units,True,7.5 kilograms is 16.5346 pounds.,
+text,224,convert_units,convert_units,True,100 pounds is 45.3592 kilograms.,
+text,225,convert_units,convert_units,True,21 miles is 33.7961 kilometers.,
+text,226,convert_units,convert_units,True,7.5 kilometers is 4.6603 miles.,
+text,227,split_bill,split_bill,True,Total with tip is 212.4 EUR. Each person pays 42.48 EUR.,
+text,228,split_bill,split_bill,True,Total with tip is 84.96 RUB. Each person pays 42.48 RUB.,
+text,229,split_bill,split_bill,True,Total with tip is 72.0 EUR. Each person pays 24.0 EUR.,
+text,230,none,none,True,No tool is needed for this request.,
+text,231,split_bill,split_bill,True,Total with tip is 120.0 EUR. Each person pays 60.0 EUR.,
+text,232,convert_units,convert_units,True,5 miles is 8.0467 kilometers.,
+text,233,convert_units,convert_units,True,7.5 kilograms is 16.5346 pounds.,
+text,234,none,none,True,No tool is needed for this request.,
+text,235,split_bill,split_bill,True,Total with tip is 55.2 RUB. Each person pays 27.6 RUB.,
+text,236,split_bill,split_bill,True,Total with tip is 80.64 RUB. Each person pays 40.32 RUB.,
+text,237,none,none,True,No tool is needed for this request.,
+text,238,convert_units,convert_units,True,3 feet is 0.9144 meters.,
+text,239,split_bill,split_bill,True,Total with tip is 52.8 EUR. Each person pays 6.6 EUR.,
+text,240,none,none,True,No tool is needed for this request.,
+text,241,split_bill,split_bill,True,Total with tip is 105.6 EUR. Each person pays 15.09 EUR.,
+text,242,convert_units,convert_units,True,42 feet is 12.8016 meters.,
+text,243,none,none,True,No tool is needed for this request.,
+text,244,split_bill,split_bill,True,Total with tip is 126.0 USD. Each person pays 63.0 USD.,
+text,245,convert_units,convert_units,True,42 miles is 67.5923 kilometers.,
+text,246,split_bill,split_bill,True,Total with tip is 39.2 USD. Each person pays 13.07 USD.,
+text,247,split_bill,split_bill,True,Total with tip is 126.0 RUB. Each person pays 25.2 RUB.,
+text,248,split_bill,split_bill,True,Total with tip is 134.4 RUB. Each person pays 22.4 RUB.,
+text,249,split_bill,split_bill,True,Total with tip is 100.8 RUB. Each person pays 33.6 RUB.,
+text,250,split_bill,split_bill,True,Total with tip is 126.0 EUR. Each person pays 15.75 EUR.,
+text,251,none,none,True,No tool is needed for this request.,
+text,252,split_bill,split_bill,True,Total with tip is 107.52 RUB. Each person pays 15.36 RUB.,
+text,253,convert_units,convert_units,True,3 kilograms is 6.6139 pounds.,
+text,254,split_bill,split_bill,True,Total with tip is 80.64 USD. Each person pays 10.08 USD.,
+text,255,none,none,True,No tool is needed for this request.,
+text,256,convert_units,convert_units,True,21 meters is 68.8976 feet.,
+text,257,convert_units,convert_units,True,3 feet is 0.9144 meters.,
+text,258,split_bill,split_bill,True,Total with tip is 126.0 RUB. Each person pays 31.5 RUB.,
+text,259,split_bill,split_bill,True,Total with tip is 250.0 USD. Each person pays 35.71 USD.,
+text,260,split_bill,split_bill,True,Total with tip is 107.52 EUR. Each person pays 17.92 EUR.,
+text,261,split_bill,split_bill,True,Total with tip is 48.0 RUB. Each person pays 12.0 RUB.,
+text,262,none,none,True,No tool is needed for this request.,
+text,263,split_bill,split_bill,True,Total with tip is 40.25 EUR. Each person pays 8.05 EUR.,
+text,264,none,none,True,No tool is needed for this request.,
+text,265,split_bill,split_bill,True,Total with tip is 72.0 USD. Each person pays 18.0 USD.,
+text,266,convert_units,convert_units,True,7.5 feet is 2.286 meters.,
+text,267,split_bill,split_bill,True,Total with tip is 36.75 RUB. Each person pays 4.59 RUB.,
+text,268,split_bill,split_bill,True,Total with tip is 48.0 EUR. Each person pays 24.0 EUR.,
+text,269,split_bill,split_bill,True,Total with tip is 96.0 RUB. Each person pays 12.0 RUB.,
+text,270,convert_units,convert_units,True,7.5 kilometers is 4.6603 miles.,
+text,271,convert_units,convert_units,True,42 kilometers is 26.0976 miles.,
+text,272,convert_units,convert_units,True,100 feet is 30.48 meters.,
+text,273,convert_units,convert_units,True,3 feet is 0.9144 meters.,
+text,274,split_bill,split_bill,True,Total with tip is 41.3 RUB. Each person pays 10.32 RUB.,
+text,275,split_bill,split_bill,True,Total with tip is 36.75 USD. Each person pays 9.19 USD.,
+text,276,convert_units,convert_units,True,12 meters is 39.3701 feet.,
+text,277,convert_units,convert_units,True,10 meters is 32.8084 feet.,
+text,278,split_bill,split_bill,True,Total with tip is 207.0 RUB. Each person pays 103.5 RUB.,
+text,279,split_bill,split_bill,True,Total with tip is 287.5 EUR. Each person pays 47.92 EUR.,
+text,280,convert_units,convert_units,True,7.5 kilograms is 16.5346 pounds.,
+text,281,split_bill,split_bill,True,Total with tip is 132.0 RUB. Each person pays 22.0 RUB.,
+text,282,split_bill,split_bill,True,Total with tip is 198.0 USD. Each person pays 24.75 USD.,
+text,283,split_bill,split_bill,True,Total with tip is 82.8 EUR. Each person pays 10.35 EUR.,
+text,284,split_bill,split_bill,True,Total with tip is 262.5 USD. Each person pays 43.75 USD.,
+text,285,convert_units,convert_units,True,21 pounds is 9.5254 kilograms.,
+text,286,convert_units,convert_units,True,5 pounds is 2.268 kilograms.,
+text,287,split_bill,split_bill,True,Total with tip is 107.52 RUB. Each person pays 17.92 RUB.,
+text,288,convert_units,convert_units,True,21 feet is 6.4008 meters.,
+text,289,convert_units,convert_units,True,42 meters is 137.795 feet.,
+text,290,convert_units,convert_units,True,42 pounds is 19.0509 kilograms.,
+text,291,convert_units,convert_units,True,100 kilometers is 62.1371 miles.,
+text,292,split_bill,split_bill,True,Total with tip is 35.0 RUB. Each person pays 5.83 RUB.,
+text,293,convert_units,convert_units,True,3 kilometers is 1.8641 miles.,
+text,294,split_bill,split_bill,True,Total with tip is 113.28 EUR. Each person pays 28.32 EUR.,
+text,295,split_bill,split_bill,True,Total with tip is 36.75 USD. Each person pays 18.38 USD.,
+text,296,convert_units,convert_units,True,100 kilometers is 62.1371 miles.,
+text,297,convert_units,convert_units,True,3 meters is 9.8425 feet.,
+text,298,split_bill,split_bill,True,Total with tip is 96.0 RUB. Each person pays 32.0 RUB.,
+text,299,none,none,True,No tool is needed for this request.,
+audio_cascaded,0,split_bill,split_bill,True,Total with tip is 141.6 USD. Each person pays 23.6 USD.,We paid 120 USD; divide it for 6 friends and add a 18 percent tip
+audio_cascaded,1,none,none,True,No tool is needed for this request.,Просто поздоровайся и ничего не вызывай
+audio_cascaded,2,convert_units,convert_units,True,100 kilograms is 220.462 pounds.,Переведи 100 kilograms в pounds
+audio_cascaded,3,split_bill,split_bill,True,Total with tip is 120.0 EUR. Each person pays 60.0 EUR.,Split a EUR 120 bill between 2 people with 0% tip
+audio_cascaded,4,split_bill,split_bill,True,Total with tip is 280.0 RUB. Each person pays 40.0 RUB.,"much should each person pay if dinner is 250 RUB, 7 people, tip 12 percent"
+audio_cascaded,5,split_bill,split_bill,True,Total with tip is 79.2 EUR. Each person pays 19.8 EUR.,"Сколько платит каждый если счет 72 EUR, людей 4, чаевые 10 процентов"
+audio_cascaded,6,convert_units,convert_units,True,21 kilometers is 13.0488 miles.,Сколько будет 21 kilometers в miles
+audio_cascaded,7,convert_units,convert_units,True,12 feet is 3.6576 meters.,How many meters are in 12 feet
+audio_cascaded,8,none,none,True,No tool is needed for this request.,What can you do as a voice assistant
+audio_cascaded,9,split_bill,split_bill,True,Total with tip is 198.0 EUR. Each person pays 49.5 EUR.,Раздели счет 180 EUR на 4 человек с чаевыми 10 процентов
+audio_cascaded,10,split_bill,split_bill,True,Total with tip is 134.4 USD. Each person pays 22.4 USD.,Раздели счет 120 USD на 6 человек с чаевыми 12 процентов
+audio_cascaded,11,convert_units,convert_units,True,100 feet is 30.48 meters.,Сколько будет 100 feet в meters
+audio_cascaded,12,split_bill,split_bill,True,Total with tip is 107.52 RUB. Each person pays 17.92 RUB.,"Сколько платит счет 96 RUB, людей 6, чаевые 12 процентов"
+audio_cascaded,13,convert_units,convert_units,True,10 miles is 16.0934 kilometers.,Convert 10 miles to kilometers
+audio_cascaded,14,none,none,True,No tool is needed for this request.,Tell me a short fun fact about machine learning
+audio_cascaded,15,convert_units,convert_units,True,42 feet is 12.8016 meters.,How many meters are in 42 feet
+audio_cascaded,16,convert_units,none,True,No tool is needed for this request.,Переведи 10 kilometers в
+audio_cascaded,17,convert_units,convert_units,True,12 kilograms is 26.4554 pounds.,Переведи 12 kilograms в pounds
+audio_cascaded,18,convert_units,convert_units,True,12 kilograms is 26.4554 pounds.,Сколько будет 12 kilograms в pounds
+audio_cascaded,19,convert_units,convert_units,True,42 feet is 12.8016 meters.,How many meters are in 42 feet
+audio_cascaded,20,split_bill,split_bill,True,Total with tip is 72.0 USD. Each person pays 36.0 USD.,"Сколько платит каждый если счет 72 USD, людей 2, чаевые 0 процентов"
+audio_cascaded,21,none,none,True,No tool is needed for this request.,Просто поздоровайся и ничего не вызывай
+audio_cascaded,22,split_bill,split_bill,True,Total with tip is 56.64 EUR. Each person pays 14.16 EUR.,Раздели счет 48 EUR на 4 человек с чаевыми 18 процентов
+audio_cascaded,23,convert_units,convert_units,True,100 feet is 30.48 meters.,Сколько будет 100 feet в meters
+audio_cascaded,24,convert_units,convert_units,True,3 meters is 9.8425 feet.,Please translate 3 meters into feet
+audio_cascaded,25,convert_units,convert_units,True,5 feet is 1.524 meters.,Сколько будет 5 feet в meters
+audio_cascaded,26,split_bill,split_bill,True,Total with tip is 56.64 EUR. Each person pays 11.33 EUR.,Split a EUR 48 bill between 5 people with 18% tip
+audio_cascaded,27,convert_units,convert_units,True,100 meters is 328.084 feet.,Convert 100 meters to feet
+audio_cascaded,28,split_bill,split_bill,True,Total with tip is 262.5 EUR. Each person pays 52.5 EUR.,Split a EUR 250 bill between 5 people with 5% tip
+audio_cascaded,29,split_bill,none,True,No tool is needed for this request.,"Сколько платит каждый если счет 96 USD, людей чаевые процентов"
+audio_cascaded,30,convert_units,convert_units,True,10 kilometers is 6.2137 miles.,Сколько будет 10 kilometers в miles
+audio_cascaded,31,split_bill,split_bill,True,Total with tip is 141.6 RUB. Each person pays 35.4 RUB.,"How much should each person pay if dinner is 120 RUB, 4 people, tip 18 percent"
+audio_cascaded,32,split_bill,split_bill,True,Total with tip is 82.8 RUB. Each person pays 11.83 RUB.,Раздели 72 RUB на 7 человек с чаевыми 15 процентов
+audio_cascaded,33,convert_units,convert_units,True,7.5 kilograms is 16.5346 pounds.,How many pounds are in 7.5 kilograms
+audio_cascaded,34,convert_units,convert_units,True,7.5 kilograms is 16.5346 pounds.,Сколько будет 7.5 kilograms в pounds
+audio_cascaded,35,split_bill,split_bill,True,Total with tip is 100.8 USD. Each person pays 14.4 USD.,"Сколько платит каждый если счет 96 USD, людей 7, чаевые 5 процентов"
+audio_cascaded,36,split_bill,split_bill,True,Total with tip is 100.8 RUB. Each person pays 20.16 RUB.,paid 96 RUB; divide it for 5 friends and add a 5 percent tip
+audio_cascaded,37,split_bill,split_bill,True,Total with tip is 35.0 USD. Each person pays 7.0 USD.,"How much each person pay if dinner is 35 USD, 5 people, tip 0 percent"
+audio_cascaded,38,convert_units,convert_units,True,3 kilometers is 1.8641 miles.,Сколько будет 3 kilometers в miles
+audio_cascaded,39,convert_units,convert_units,True,12 feet is 3.6576 meters.,Please translate 12 feet into meters
+audio_cascaded,40,none,none,True,No tool is needed for this request.,Просто поздоровайся и ничего не вызывай
+audio_cascaded,41,none,none,True,No tool is needed for this request.,"Скажи коротко, что такое градиентный"
+audio_cascaded,42,split_bill,split_bill,True,Total with tip is 134.4 RUB. Each person pays 44.8 RUB.,"How much should each person pay if dinner is 120 RUB, 3 people, tip 12 percent"
+audio_cascaded,43,convert_units,convert_units,True,10 pounds is 4.5359 kilograms.,Convert 10 pounds to kilograms
+audio_cascaded,44,convert_units,convert_units,True,3 miles is 4.828 kilometers.,How many kilometers are 3 miles
+audio_cascaded,45,split_bill,split_bill,True,Total with tip is 120.0 EUR. Each person pays 15.0 EUR.,We paid 120 EUR; divide it for 8 friends and add a 0 percent
+audio_cascaded,46,convert_units,convert_units,True,3 miles is 4.828 kilometers.,Сколько будет 3 miles в kilometers
+audio_cascaded,47,split_bill,split_bill,True,Total with tip is 126.0 RUB. Each person pays 42.0 RUB.,We paid 120 RUB; divide it for 3 friends and add a 5 percent tip
+audio_cascaded,48,split_bill,split_bill,True,Total with tip is 107.52 USD. Each person pays 17.92 USD.,Раздели счет 96 USD на 6 человек с чаевыми 12 процентов
+audio_cascaded,49,split_bill,split_bill,True,Total with tip is 79.2 EUR. Each person pays 26.4 EUR.,Раздели счет 72 EUR на 3 человек с чаевыми 10 процентов
+audio_cascaded,50,none,none,True,No tool is needed for this request.,Просто поздоровайся и ничего не вызывай
+audio_cascaded,51,split_bill,split_bill,True,Total with tip is 55.2 EUR. Each person pays 13.8 EUR.,Раздели счет 48 EUR на 4 человек с чаевыми 15 процентов
+audio_cascaded,52,split_bill,split_bill,True,Total with tip is 6.6 USD. Each person pays 0.66 USD.,We paid USD; divide it for 6 friends and add a 10 percent tip
+audio_cascaded,53,split_bill,split_bill,True,Total with tip is 41.3 USD. Each person pays 8.26 USD.,Раздели счет 35 на 5 человек с чаевыми 18 процентов
+audio_cascaded,54,convert_units,convert_units,True,7.5 kilometers is 4.6603 miles.,Please translate 7.5 kilometers into miles
+audio_cascaded,55,none,none,True,No tool is needed for this request.,What you do as a voice assistant
+audio_cascaded,56,convert_units,convert_units,True,10 kilometers is 6.2137 miles.,Сколько 10 kilometers в miles
+audio_cascaded,57,convert_units,convert_units,True,10 kilograms is 22.0462 pounds.,Please translate 10 kilograms into pounds
+audio_cascaded,58,convert_units,convert_units,True,7.5 kilometers is 4.6603 miles.,Please translate 7.5 kilometers into miles
+audio_cascaded,59,split_bill,split_bill,True,Total with tip is 96.0 RUB. Each person pays 32.0 RUB.,Split a RUB 96 bill between 3 people with 0% tip
+audio_cascaded,60,convert_units,convert_units,True,1 pounds is 0.4536 kilograms.,Convert pounds to kilograms
+audio_cascaded,61,convert_units,convert_units,True,12 kilograms is 26.4554 pounds.,Convert 12 kilograms to pounds
+audio_cascaded,62,split_bill,split_bill,True,Total with tip is 79.2 EUR. Each person pays 26.4 EUR.,Split a EUR 72 bill between 3 people with 10% tip
+audio_cascaded,63,split_bill,split_bill,True,Total with tip is 275.0 EUR. Each person pays 34.38 EUR.,Split a EUR 250 bill between 8 people with 10% tip
+audio_cascaded,64,split_bill,split_bill,True,Total with tip is 52.8 USD. Each person pays 26.4 USD.,Split a USD 48 bill between 2 people with 10% tip
+audio_cascaded,65,convert_units,convert_units,True,21 meters is 68.8976 feet.,Переведи 21 meters в feet
+audio_cascaded,66,convert_units,convert_units,True,3 feet is 0.9144 meters.,Please translate 3 feet into meters
+audio_cascaded,67,convert_units,convert_units,True,100 feet is 30.48 meters.,Convert 100 feet to meters
+audio_cascaded,68,convert_units,convert_units,True,12 feet is 3.6576 meters.,Please translate 12 feet into meters
+audio_cascaded,69,none,none,True,No tool is needed for this request.,What can you do as a voice assistant
+audio_cascaded,70,split_bill,split_bill,True,Total with tip is 180.0 EUR. Each person pays 36.0 EUR.,"How much should each person pay if dinner is 180 EUR, 5 people, tip percent"
+audio_cascaded,71,split_bill,split_bill,True,Total with tip is 250.0 EUR. Each person pays 31.25 EUR.,Раздели счет 250 EUR на 8 человек с чаевыми 0 процентов
+audio_cascaded,72,split_bill,split_bill,True,Total with tip is 38.5 USD. Each person pays 6.42 USD.,"Сколько платит каждый если счет 35 USD, людей 6, чаевые 10 процентов"
+audio_cascaded,73,split_bill,split_bill,True,Total with tip is 40.25 USD. Each person pays 13.42 USD.,Split a USD 35 bill between 3 people with 15% tip
+audio_cascaded,74,split_bill,split_bill,True,Total with tip is 138.0 RUB. Each person pays 34.5 RUB.,"How much should each person pay if dinner is 120 RUB, 4 tip 15 percent"
+audio_cascaded,75,split_bill,split_bill,True,Total with tip is 132.0 EUR. Each person pays 44.0 EUR.,Раздели счет 120 EUR на 3 человек с чаевыми 10 процентов
+audio_cascaded,76,split_bill,split_bill,True,Total with tip is 295.0 USD. Each person pays 59.0 USD.,We paid 250 USD; divide it for 5 friends and add a 18 percent tip
+audio_cascaded,77,split_bill,split_bill,True,Total with tip is 41.3 RUB. Each person pays 5.9 RUB.,"Сколько платит каждый если 35 RUB, людей 7, чаевые 18 процентов"
+audio_cascaded,78,split_bill,split_bill,True,Total with tip is 75.6 USD. Each person pays 9.45 USD.,Split a USD 72 bill between 8 people with 5% tip
+audio_cascaded,79,split_bill,split_bill,True,Total with tip is 134.4 EUR. Each person pays 26.88 EUR.,"How much should each person pay if dinner is 120 EUR, 5 tip 12 percent"
+audio_cascaded,80,split_bill,split_bill,True,Total with tip is 180.0 USD. Each person pays 30.0 USD.,"Сколько платит каждый если счет 180 USD, людей 6, чаевые 0 процентов"
+audio_cascaded,81,split_bill,split_bill,True,Total with tip is 9.2 EUR. Each person pays 0.61 EUR.,"How much should each person pay if dinner is EUR, 8 people, tip 15 percent"
+audio_cascaded,82,convert_units,convert_units,True,21 kilometers is 13.0488 miles.,Convert 21 kilometers to miles
+audio_cascaded,83,convert_units,convert_units,True,10 feet is 3.048 meters.,Convert 10 feet to meters
+audio_cascaded,84,none,none,True,No tool is needed for this request.,"Скажи коротко, что такое градиентный спуск"
+audio_cascaded,85,none,none,True,No tool is needed for this request.,Просто поздоровайся и ничего не вызывай
+audio_cascaded,86,convert_units,convert_units,True,1 miles is 1.6093 kilometers.,Сколько будет miles в kilometers
+audio_cascaded,87,none,none,True,No tool is needed for this request.,What can you do as a voice assistant
+audio_cascaded,88,none,none,True,No tool is needed for this request.,What can you do a voice assistant
+audio_cascaded,89,split_bill,split_bill,True,Total with tip is 207.0 EUR. Each person pays 41.4 EUR.,"Сколько платит каждый если счет 180 EUR, людей 5, чаевые 15 процентов"
+audio_cascaded,90,split_bill,split_bill,True,Total with tip is 53.76 USD. Each person pays 7.68 USD.,Раздели счет 48 USD на 7 человек с чаевыми 12
+audio_cascaded,91,none,none,True,No tool is needed for this request.,What can you do as a voice assistant
+audio_cascaded,92,convert_units,convert_units,True,42 kilometers is 26.0976 miles.,How many miles are in 42 kilometers
+audio_cascaded,93,split_bill,split_bill,True,Total with tip is 84.96 EUR. Each person pays 14.16 EUR.,We paid 72 EUR; divide it for 6 friends and add a 18 percent tip
+audio_cascaded,94,convert_units,convert_units,True,5 kilometers is 3.1069 miles.,Сколько будет 5 kilometers в miles
+audio_cascaded,95,split_bill,split_bill,True,Total with tip is 287.5 EUR. Each person pays 41.07 EUR.,"Сколько платит каждый если 250 EUR, людей 7, чаевые 15 процентов"
+audio_cascaded,96,split_bill,split_bill,True,Total with tip is 110.4 RUB. Each person pays 22.08 RUB.,We paid 96 RUB; divide it for 5 friends and add a 15 percent tip
+audio_cascaded,97,none,none,True,No tool is needed for this request.,Tell me a short fun fact about machine learning
+audio_cascaded,98,split_bill,split_bill,True,Total with tip is 198.0 RUB. Each person pays 39.6 RUB.,"How much should each person pay if dinner is 180 RUB, 5 people, tip 10 percent"
+audio_cascaded,99,split_bill,split_bill,True,Total with tip is 212.4 USD. Each person pays 35.4 USD.,We paid 180 USD; divide it for 6 friends and add a 18 percent tip
+audio_cascaded,100,none,none,True,No tool is needed for this request.,What can you do as a voice assistant
+audio_cascaded,101,convert_units,convert_units,True,21 miles is 33.7961 kilometers.,Переведи 21 miles в kilometers
+audio_cascaded,102,split_bill,split_bill,True,Total with tip is 180.0 RUB. Each person pays 25.71 RUB.,Раздели счет 180 RUB на 7 человек с чаевыми 0 процентов
+audio_cascaded,103,none,none,True,No tool is needed for this request.,What can you do as a voice assistant
+audio_cascaded,104,convert_units,convert_units,True,7.5 pounds is 3.4019 kilograms.,Сколько будет 7.5 pounds в kilograms
+audio_cascaded,105,split_bill,split_bill,True,Total with tip is 75.6 USD. Each person pays 12.6 USD.,Split a USD 72 bill between 6 people with 5% tip
+audio_cascaded,106,none,none,True,No tool is needed for this request.,Tell me a short fun fact about machine learning
+audio_cascaded,107,none,none,True,No tool is needed for this request.,Tell me a short fun fact about machine learning
+audio_cascaded,108,split_bill,split_bill,True,Total with tip is 50.4 RUB. Each person pays 8.4 RUB.,"Сколько платит каждый если счет 48 RUB, людей 6, чаевые 5 процентов"
+audio_cascaded,109,split_bill,split_bill,True,Total with tip is 39.2 USD. Each person pays 9.8 USD.,Split a USD 35 bill between 4 people with 12% tip
+audio_cascaded,110,split_bill,split_bill,True,Total with tip is 141.6 USD. Each person pays 35.4 USD.,"How much should each person pay if dinner is 120 USD, 4 people, tip 18 percent"
+audio_cascaded,111,convert_units,convert_units,True,100 kilometers is 62.1371 miles.,Сколько будет 100 kilometers в miles
+audio_cascaded,112,convert_units,convert_units,True,21 pounds is 9.5254 kilograms.,Переведи 21 pounds в kilograms
+audio_cascaded,113,none,none,True,No tool is needed for this request.,What can you do as a voice assistant
+audio_cascaded,114,split_bill,split_bill,True,Total with tip is 280.0 EUR. Each person pays 140.0 EUR.,"How much should each person pay if dinner is 250 EUR, 2 people, tip 12 percent"
+audio_cascaded,115,convert_units,convert_units,True,10 miles is 16.0934 kilometers.,Please translate 10 miles into kilometers
+audio_cascaded,116,split_bill,split_bill,True,Total with tip is 132.0 USD. Each person pays 33.0 USD.,Раздели счет 120 на 4 человек с чаевыми 10 процентов
+audio_cascaded,117,split_bill,split_bill,True,Total with tip is 53.76 USD. Each person pays 17.92 USD.,"How much should each person pay if dinner is 48 USD, 3 people, tip 12 percent"
+audio_cascaded,118,convert_units,convert_units,True,1 feet is 0.3048 meters.,Сколько будет feet в meters
+audio_cascaded,119,split_bill,split_bill,True,Total with tip is 56.64 RUB. Each person pays 11.33 RUB.,We paid 48 RUB; divide it for 5 friends and add a 18 percent tip
+audio_cascaded,120,split_bill,split_bill,True,Total with tip is 72.0 EUR. Each person pays 9.0 EUR.,"How much should each person pay if dinner is 72 EUR, 8 people, tip 0 percent"
+audio_cascaded,121,none,none,True,No tool is needed for this request.,Просто поздоровайся и ничего не вызывай
+audio_cascaded,122,split_bill,split_bill,True,Total with tip is 132.0 USD. Each person pays 18.86 USD.,"How much should each person pay if dinner is 120 USD, 7 people, tip 10 percent"
+audio_cascaded,123,none,none,True,No tool is needed for this request.,Tell me a short fun fact about machine learning
+audio_cascaded,124,split_bill,split_bill,True,Total with tip is 141.6 EUR. Each person pays 28.32 EUR.,Раздели счет 120 EUR на 5 человек с чаевыми 18 процентов
+audio_cascaded,125,split_bill,split_bill,True,Total with tip is 212.4 EUR. Each person pays 53.1 EUR.,"How much should each person pay if dinner is 180 EUR, 4 people, tip 18 percent"
+audio_cascaded,126,split_bill,split_bill,True,Total with tip is 295.0 RUB. Each person pays 59.0 RUB.,"Сколько платит каждый если 250 RUB, людей 5, чаевые 18 процентов"
+audio_cascaded,127,convert_units,convert_units,True,42 meters is 137.795 feet.,Please translate 42 meters into feet
+audio_cascaded,128,split_bill,split_bill,True,Total with tip is 100.8 USD. Each person pays 14.4 USD.,"How much should each person pay if dinner is 96 USD, 7 people, tip 5 percent"
+audio_cascaded,129,convert_units,convert_units,True,12 miles is 19.3121 kilometers.,Please translate 12 miles into kilometers
+audio_cascaded,130,convert_units,convert_units,True,42 feet is 12.8016 meters.,Переведи 42 feet в meters
+audio_cascaded,131,split_bill,split_bill,True,Total with tip is 36.75 RUB. Each person pays 4.59 RUB.,Split a RUB 35 bill between 8 people with 5% tip
+audio_cascaded,132,convert_units,convert_units,True,12 meters is 39.3701 feet.,Convert 12 meters to feet
+audio_cascaded,133,convert_units,convert_units,True,100 kilograms is 220.462 pounds.,Please translate 100 kilograms into pounds
+audio_cascaded,134,convert_units,convert_units,True,21 kilometers is 13.0488 miles.,Сколько будет 21 kilometers в miles
+audio_cascaded,135,convert_units,convert_units,True,3 kilometers is 1.8641 miles.,How many miles are in 3 kilometers
+audio_cascaded,136,split_bill,split_bill,True,Total with tip is 50.4 RUB. Each person pays 10.08 RUB.,We paid 48 RUB; divide it for 5 friends and add a 5 percent tip
+audio_cascaded,137,convert_units,convert_units,True,5 kilograms is 11.0231 pounds.,Переведи 5 kilograms в pounds
+audio_cascaded,138,convert_units,convert_units,True,7.5 kilometers is 4.6603 miles.,Convert 7.5 kilometers to miles
+audio_cascaded,139,split_bill,split_bill,True,Total with tip is 100.8 RUB. Each person pays 50.4 RUB.,"Сколько платит каждый если счет 96 RUB, людей 2, чаевые 5 процентов"
+audio_cascaded,140,none,none,True,No tool is needed for this request.,Просто поздоровайся и ничего не вызывай
+audio_cascaded,141,convert_units,convert_units,True,21 meters is 68.8976 feet.,Please translate 21 meters into feet
+audio_cascaded,142,split_bill,split_bill,True,Total with tip is 4.48 EUR. Each person pays 0.37 EUR.,"How much should each person pay if dinner is EUR, 4 people, tip 12 percent"
+audio_cascaded,143,split_bill,split_bill,True,Total with tip is 96.0 EUR. Each person pays 32.0 EUR.,"How should person pay if dinner is 96 EUR, 3 people, tip 0 percent"
+audio_cascaded,144,split_bill,split_bill,True,Total with tip is 262.5 EUR. Each person pays 52.5 EUR.,"How much should each person pay if dinner is 250 EUR, people, tip 5 percent"
+audio_cascaded,145,convert_units,none,True,No tool is needed for this request.,How many in 42 meters
+audio_cascaded,146,convert_units,convert_units,True,42 kilometers is 26.0976 miles.,Сколько будет 42 kilometers в miles
+audio_cascaded,147,convert_units,convert_units,True,12 feet is 3.6576 meters.,Сколько будет 12 feet в meters
+audio_cascaded,148,split_bill,split_bill,True,Total with tip is 138.0 EUR. Each person pays 23.0 EUR.,Раздели счет 120 EUR 6 человек с чаевыми 15 процентов
+audio_cascaded,149,split_bill,split_bill,True,Total with tip is 75.6 USD. Each person pays 18.9 USD.,"Сколько платит каждый если счет 72 USD, людей 4, чаевые 5 процентов"
+audio_cascaded,150,none,none,True,No tool is needed for this request.,"Скажи коротко, что такое градиентный спуск"
+audio_cascaded,151,convert_units,convert_units,True,42 pounds is 19.0509 kilograms.,Convert 42 pounds to kilograms
+audio_cascaded,152,none,none,True,No tool is needed for this request.,"Скажи коротко, что такое градиентный спуск"
+audio_cascaded,153,split_bill,split_bill,True,Total with tip is 53.76 RUB. Each person pays 17.92 RUB.,"Сколько платит каждый если счет 48 RUB, людей 3, чаевые 12 процентов"
+audio_cascaded,154,split_bill,split_bill,True,Total with tip is 52.8 RUB. Each person pays 6.6 RUB.,Раздели счет 48 RUB на 8 человек с чаевыми 10
+audio_cascaded,155,split_bill,split_bill,True,Total with tip is 198.0 USD. Each person pays 24.75 USD.,Раздели счет 180 на 8 человек с чаевыми 10 процентов
+audio_cascaded,156,convert_units,convert_units,True,10 miles is 16.0934 kilometers.,Сколько будет 10 miles в kilometers
+audio_cascaded,157,convert_units,convert_units,True,7.5 pounds is 3.4019 kilograms.,How many kilograms are in 7.5 pounds
+audio_cascaded,158,split_bill,split_bill,True,Total with tip is 9.44 RUB. Each person pays 0.52 RUB.,Split a RUB bill between 8 people with 18% tip
+audio_cascaded,159,convert_units,convert_units,True,3 meters is 9.8425 feet.,Please translate 3 meters into feet
+audio_cascaded,160,none,none,True,No tool is needed for this request.,"Скажи коротко, что такое градиентный спуск"
+audio_cascaded,161,split_bill,split_bill,True,Total with tip is 132.0 USD. Each person pays 18.86 USD.,Раздели счет 120 USD на 7 человек с чаевыми 10 процентов
+audio_cascaded,162,split_bill,split_bill,True,Total with tip is 189.0 RUB. Each person pays 94.5 RUB.,We paid 180 RUB; divide it for 2 friends and add a 5 percent tip
+audio_cascaded,163,split_bill,split_bill,True,Total with tip is 138.0 USD. Each person pays 27.6 USD.,"How much should each person pay if dinner is 120 USD, 5 people, tip 15 percent"
+audio_cascaded,164,split_bill,split_bill,True,Total with tip is 72.0 EUR. Each person pays 12.0 EUR.,Раздели счет 72 EUR на 6 человек с чаевыми 0 процентов
+audio_cascaded,165,split_bill,split_bill,True,Total with tip is 84.96 RUB. Each person pays 28.32 RUB.,Split a RUB 72 bill between 3 people with 18% tip
+audio_cascaded,166,convert_units,convert_units,True,3 kilometers is 1.8641 miles.,Please translate 3 kilometers into miles
+audio_cascaded,167,convert_units,convert_units,True,12 meters is 39.3701 feet.,Convert 12 meters to feet
+audio_cascaded,168,split_bill,split_bill,True,Total with tip is 48.0 EUR. Each person pays 6.0 EUR.,Раздели счет 48 EUR на 8 человек с чаевыми 0 процентов
+audio_cascaded,169,split_bill,split_bill,True,Total with tip is 262.5 USD. Each person pays 87.5 USD.,Раздели счет 250 USD на 3 человек с чаевыми 5 процентов
+audio_cascaded,170,split_bill,split_bill,True,Total with tip is 53.76 RUB. Each person pays 8.96 RUB.,счет 48 RUB на 6 человек с чаевыми 12 процентов
+audio_cascaded,171,convert_units,convert_units,True,21 pounds is 9.5254 kilograms.,How many kilograms are in 21 pounds
+audio_cascaded,172,none,none,True,No tool is needed for this request.,Просто поздоровайся и ничего не вызывай
+audio_cascaded,173,none,none,True,No tool is needed for this request.,Просто поздоровайся и ничего не вызывай
+audio_cascaded,174,split_bill,split_bill,True,Total with tip is 50.4 USD. Each person pays 7.2 USD.,Split a 48 bill between 7 people with 5% tip
+audio_cascaded,175,split_bill,split_bill,True,Total with tip is 212.4 USD. Each person pays 35.4 USD.,Split a USD 180 bill between 6 people with 18% tip
+audio_cascaded,176,split_bill,split_bill,True,Total with tip is 189.0 EUR. Each person pays 37.8 EUR.,Split a EUR 180 bill between 5 people with 5%
+audio_cascaded,177,convert_units,convert_units,True,7.5 pounds is 3.4019 kilograms.,Please translate 7.5 pounds into kilograms
+audio_cascaded,178,split_bill,split_bill,True,Total with tip is 72.0 EUR. Each person pays 14.4 EUR.,"Сколько платит каждый если счет 72 EUR, людей 5, чаевые 0 процентов"
+audio_cascaded,179,convert_units,convert_units,True,12 meters is 39.3701 feet.,Переведи 12 meters в feet
+audio_cascaded,180,none,none,True,No tool is needed for this request.,Tell me a short fun fact about machine learning
+audio_cascaded,181,convert_units,convert_units,True,10 meters is 32.8084 feet.,10 meters в feet
+audio_cascaded,182,split_bill,split_bill,True,Total with tip is 180.0 RUB. Each person pays 30.0 RUB.,"Сколько платит каждый если счет 180 RUB, людей 6, чаевые 0 процентов"
+audio_cascaded,183,split_bill,split_bill,True,Total with tip is 72.0 EUR. Each person pays 10.29 EUR.,Раздели счет 72 EUR на 7 человек с чаевыми 0 процентов
+audio_cascaded,184,split_bill,split_bill,True,Total with tip is 287.5 RUB. Each person pays 35.94 RUB.,Split a RUB 250 bill between 8 people with 15% tip
+audio_cascaded,185,convert_units,convert_units,True,12 kilometers is 7.4565 miles.,Convert 12 kilometers to miles
+audio_cascaded,186,convert_units,convert_units,True,5 kilograms is 11.0231 pounds.,Переведи 5 kilograms в pounds
+audio_cascaded,187,convert_units,convert_units,True,42 pounds is 19.0509 kilograms.,Сколько будет 42 pounds в kilograms
+audio_cascaded,188,none,none,True,No tool is needed for this request.,Просто поздоровайся и ничего не вызывай
+audio_cascaded,189,convert_units,convert_units,True,7.5 meters is 24.6063 feet.,How many feet are in 7.5 meters
+audio_cascaded,190,split_bill,split_bill,True,Total with tip is 100.8 RUB. Each person pays 50.4 RUB.,"How much should each person pay if dinner is 96 RUB, 2 people, tip 5 percent"
+audio_cascaded,191,split_bill,split_bill,True,Total with tip is 35.0 RUB. Each person pays 5.0 RUB.,"Сколько платит если счет 35 RUB, людей 7, чаевые 0 процентов"
+audio_cascaded,192,split_bill,split_bill,True,Total with tip is 295.0 USD. Each person pays 73.75 USD.,"How much should each person pay if dinner is 250 USD, 4 people, tip 18 percent"
+audio_cascaded,193,none,none,True,No tool is needed for this request.,"Скажи коротко, что такое градиентный спуск"
+audio_cascaded,194,split_bill,split_bill,True,Total with tip is 100.8 EUR. Each person pays 20.16 EUR.,We paid 96 EUR; divide it for friends and add a 5 percent tip
+audio_cascaded,195,convert_units,convert_units,True,21 feet is 6.4008 meters.,Convert 21 feet to meters
+audio_cascaded,196,convert_units,convert_units,True,7.5 feet is 2.286 meters.,How many meters are in 7.5 feet
+audio_cascaded,197,convert_units,convert_units,True,100 kilograms is 220.462 pounds.,Переведи 100 kilograms в pounds
+audio_cascaded,198,convert_units,convert_units,True,3 feet is 0.9144 meters.,How many meters are in 3 feet
+audio_cascaded,199,split_bill,split_bill,True,Total with tip is 39.2 USD. Each person pays 6.53 USD.,"How much should each person pay if dinner is 35 USD, 6 people, tip 12 percent"
+audio_cascaded,200,split_bill,split_bill,True,Total with tip is 132.0 EUR. Each person pays 33.0 EUR.,"Сколько платит каждый счет 120 EUR, людей 4, чаевые 10 процентов"
+audio_cascaded,201,split_bill,split_bill,True,Total with tip is 138.0 USD. Each person pays 17.25 USD.,"Сколько платит каждый если счет 120 USD, людей 8, чаевые 15 процентов"
+audio_cascaded,202,split_bill,split_bill,True,Total with tip is 75.6 RUB. Each person pays 9.45 RUB.,Split a RUB 72 bill between 8 people with 5% tip
+audio_cascaded,203,convert_units,convert_units,True,100 feet is 30.48 meters.,Convert 100 feet to meters
+audio_cascaded,204,convert_units,convert_units,True,42 feet is 12.8016 meters.,Convert 42 feet to meters
+audio_cascaded,205,split_bill,split_bill,True,Total with tip is 36.75 RUB. Each person pays 9.19 RUB.,"How much should each person pay if dinner is 35 RUB, 4 people, tip 5 percent"
+audio_cascaded,206,none,none,True,No tool is needed for this request.,Tell me a short fun fact about machine learning
+audio_cascaded,207,split_bill,split_bill,True,Total with tip is 41.3 RUB. Each person pays 13.77 RUB.,"Сколько платит каждый если счет 35 RUB, людей 3, чаевые 18 процентов"
+audio_cascaded,208,split_bill,split_bill,True,Total with tip is 96.0 USD. Each person pays 16.0 USD.,"How much should each person pay if dinner is 96 USD, 6 people, tip percent"
+audio_cascaded,209,none,none,True,No tool is needed for this request.,Просто поздоровайся и ничего не вызывай
+audio_cascaded,210,none,none,True,No tool is needed for this request.,Tell me a short fun fact about machine learning
+audio_cascaded,211,none,none,True,No tool is needed for this request.,"Скажи коротко, что такое градиентный"
+audio_cascaded,212,convert_units,convert_units,True,100 kilometers is 62.1371 miles.,Please translate 100 kilometers into miles
+audio_cascaded,213,split_bill,split_bill,True,Total with tip is 198.0 USD. Each person pays 99.0 USD.,Split a USD 180 bill between 2 people with 10% tip
+audio_cascaded,214,split_bill,split_bill,True,Total with tip is 201.6 EUR. Each person pays 100.8 EUR.,Split a EUR 180 bill between 2 people with 12% tip
+audio_cascaded,215,none,none,True,No tool is needed for this request.,"Скажи коротко, что такое градиентный спуск"
+audio_cascaded,216,convert_units,convert_units,True,10 feet is 3.048 meters.,Convert 10 feet to meters
+audio_cascaded,217,convert_units,convert_units,True,10 kilograms is 22.0462 pounds.,Переведи 10 kilograms в pounds
+audio_cascaded,218,convert_units,convert_units,True,10 kilometers is 6.2137 miles.,Convert 10 kilometers to miles
+audio_cascaded,219,split_bill,split_bill,True,Total with tip is 134.4 RUB. Each person pays 67.2 RUB.,"Сколько платит каждый если счет 120 RUB, людей 2, чаевые 12 процентов"
+audio_cascaded,220,split_bill,split_bill,True,Total with tip is 55.2 USD. Each person pays 18.4 USD.,"Сколько платит каждый если счет 48 USD, людей 3, чаевые 15 процентов"
+audio_cascaded,221,convert_units,convert_units,True,42 meters is 137.795 feet.,How many feet are in 42 meters
+audio_cascaded,222,convert_units,convert_units,True,3 meters is 9.8425 feet.,Convert 3 meters to feet
+audio_cascaded,223,convert_units,convert_units,True,7.5 kilograms is 16.5346 pounds.,Сколько будет 7.5 kilograms pounds
+audio_cascaded,224,convert_units,convert_units,True,100 pounds is 45.3592 kilograms.,How many kilograms are in 100 pounds
+audio_cascaded,225,convert_units,convert_units,True,21 miles is 33.7961 kilometers.,Переведи 21 miles в kilometers
+audio_cascaded,226,convert_units,convert_units,True,7.5 kilometers is 4.6603 miles.,Переведи 7.5 kilometers в miles
+audio_cascaded,227,split_bill,split_bill,True,Total with tip is 212.4 EUR. Each person pays 42.48 EUR.,"Сколько платит каждый если счет 180 EUR, людей 5, чаевые 18 процентов"
+audio_cascaded,228,split_bill,split_bill,True,Total with tip is 84.96 RUB. Each person pays 42.48 RUB.,"Сколько платит каждый если счет 72 RUB, людей 2, чаевые 18 процентов"
+audio_cascaded,229,split_bill,split_bill,True,Total with tip is 72.0 EUR. Each person pays 24.0 EUR.,We paid 72 EUR; divide it for 3 friends and add a 0 percent tip
+audio_cascaded,230,none,none,True,No tool is needed for this request.,"Скажи коротко, что такое градиентный спуск"
+audio_cascaded,231,split_bill,split_bill,True,Total with tip is 120.0 EUR. Each person pays 60.0 EUR.,We paid 120 EUR; divide it for 2 friends and add a 0 percent tip
+audio_cascaded,232,convert_units,convert_units,True,5 miles is 8.0467 kilometers.,Переведи 5 miles в kilometers
+audio_cascaded,233,convert_units,convert_units,True,7.5 kilograms is 16.5346 pounds.,Сколько будет 7.5 kilograms в pounds
+audio_cascaded,234,none,none,True,No tool is needed for this request.,Просто поздоровайся и ничего не вызывай
+audio_cascaded,235,split_bill,split_bill,True,Total with tip is 55.2 RUB. Each person pays 27.6 RUB.,"much should each person pay if dinner is 48 RUB, 2 people, tip 15 percent"
+audio_cascaded,236,split_bill,split_bill,True,Total with tip is 80.64 RUB. Each person pays 40.32 RUB.,"How much should each person pay if dinner is 72 RUB, 2 people, tip 12 percent"
+audio_cascaded,237,none,none,True,No tool is needed for this request.,Просто и ничего не вызывай
+audio_cascaded,238,convert_units,convert_units,True,3 feet is 0.9144 meters.,будет 3 feet в meters
+audio_cascaded,239,split_bill,split_bill,True,Total with tip is 52.8 EUR. Each person pays 6.6 EUR.,Split a EUR 48 bill between 8 people with 10% tip
+audio_cascaded,240,none,none,True,No tool is needed for this request.,What can you do as a voice
+audio_cascaded,241,split_bill,split_bill,True,Total with tip is 105.6 EUR. Each person pays 15.09 EUR.,Раздели счет 96 EUR на 7 человек с чаевыми 10 процентов
+audio_cascaded,242,convert_units,convert_units,True,42 feet is 12.8016 meters.,Please translate 42 feet into meters
+audio_cascaded,243,none,none,True,No tool is needed for this request.,"Скажи коротко, что такое градиентный спуск"
+audio_cascaded,244,split_bill,split_bill,True,Total with tip is 126.0 USD. Each person pays 63.0 USD.,"How much should each person pay if dinner is 120 2 people, tip 5 percent"
+audio_cascaded,245,convert_units,convert_units,True,42 miles is 67.5923 kilometers.,Please translate 42 miles into kilometers
+audio_cascaded,246,split_bill,split_bill,True,Total with tip is 39.2 USD. Each person pays 13.07 USD.,"Сколько платит каждый если счет 35 USD, людей 3, чаевые 12 процентов"
+audio_cascaded,247,split_bill,split_bill,True,Total with tip is 126.0 RUB. Each person pays 25.2 RUB.,"Сколько платит каждый если счет 120 RUB, людей 5, чаевые 5 процентов"
+audio_cascaded,248,split_bill,split_bill,True,Total with tip is 134.4 RUB. Each person pays 22.4 RUB.,"How much should each person pay if dinner is 120 RUB, 6 people, tip 12 percent"
+audio_cascaded,249,split_bill,split_bill,True,Total with tip is 100.8 RUB. Each person pays 33.6 RUB.,"How much should each person pay if dinner is 96 RUB, 3 people, tip 5 percent"
+audio_cascaded,250,split_bill,split_bill,True,Total with tip is 126.0 EUR. Each person pays 15.75 EUR.,We paid 120 EUR; divide it for 8 friends and add a 5 percent tip
+audio_cascaded,251,none,none,True,No tool is needed for this request.,"Скажи коротко, что такое градиентный спуск"
+audio_cascaded,252,split_bill,split_bill,True,Total with tip is 107.52 RUB. Each person pays 15.36 RUB.,Split a RUB 96 bill between 7 people with 12% tip
+audio_cascaded,253,convert_units,convert_units,True,3 kilograms is 6.6139 pounds.,Сколько будет 3 kilograms в pounds
+audio_cascaded,254,split_bill,split_bill,True,Total with tip is 80.64 USD. Each person pays 10.08 USD.,"Сколько платит каждый если счет 72 USD, людей 8, чаевые 12 процентов"
+audio_cascaded,255,none,none,True,No tool is needed for this request.,What can you do as a voice assistant
+audio_cascaded,256,convert_units,convert_units,True,21 meters is 68.8976 feet.,Переведи 21 meters в feet
+audio_cascaded,257,convert_units,convert_units,True,3 feet is 0.9144 meters.,Сколько будет 3 feet в meters
+audio_cascaded,258,split_bill,split_bill,True,Total with tip is 120.0 RUB. Each person pays 30.0 RUB.,"Сколько платит каждый если счет 120 RUB, людей 4, чаевые процентов"
+audio_cascaded,259,split_bill,split_bill,True,Total with tip is 250.0 USD. Each person pays 35.71 USD.,We paid 250 USD; divide it for 7 friends and add a 0 percent tip
+audio_cascaded,260,split_bill,split_bill,True,Total with tip is 107.52 EUR. Each person pays 17.92 EUR.,We paid 96 EUR; divide it for 6 friends and add a 12 percent tip
+audio_cascaded,261,split_bill,split_bill,True,Total with tip is 48.0 RUB. Each person pays 12.0 RUB.,Split a RUB 48 bill between 4 people with 0% tip
+audio_cascaded,262,none,none,True,No tool is needed for this request.,Tell me a short fun fact about machine learning
+audio_cascaded,263,split_bill,split_bill,True,Total with tip is 40.25 EUR. Each person pays 8.05 EUR.,"Сколько платит каждый если счет 35 EUR, людей 5, чаевые 15 процентов"
+audio_cascaded,264,none,none,True,No tool is needed for this request.,Tell me a short fun fact about machine learning
+audio_cascaded,265,split_bill,split_bill,True,Total with tip is 72.0 USD. Each person pays 18.0 USD.,Split a USD 72 bill between 4 people with 0% tip
+audio_cascaded,266,convert_units,convert_units,True,7.5 feet is 2.286 meters.,Переведи 7.5 feet в meters
+audio_cascaded,267,split_bill,split_bill,True,Total with tip is 36.75 RUB. Each person pays 4.59 RUB.,Раздели счет 35 RUB на 8 человек с чаевыми 5 процентов
+audio_cascaded,268,split_bill,split_bill,True,Total with tip is 48.0 EUR. Each person pays 24.0 EUR.,We paid 48 EUR; divide it for 2 friends and add a 0 percent tip
+audio_cascaded,269,split_bill,split_bill,True,Total with tip is 96.0 RUB. Each person pays 12.0 RUB.,Раздели счет 96 RUB на 8 человек с чаевыми 0 процентов
+audio_cascaded,270,convert_units,convert_units,True,7.5 kilometers is 4.6603 miles.,Convert 7.5 kilometers to miles
+audio_cascaded,271,convert_units,convert_units,True,42 kilometers is 26.0976 miles.,Переведи 42 kilometers в miles
+audio_cascaded,272,convert_units,convert_units,True,100 feet is 30.48 meters.,Please translate 100 feet into meters
+audio_cascaded,273,convert_units,convert_units,True,3 feet is 0.9144 meters.,How many meters are in 3 feet
+audio_cascaded,274,split_bill,split_bill,True,Total with tip is 41.3 RUB. Each person pays 10.32 RUB.,"Сколько платит каждый если счет 35 RUB, людей 4, чаевые 18"
+audio_cascaded,275,split_bill,split_bill,True,Total with tip is 36.75 USD. Each person pays 9.19 USD.,We paid 35 USD; divide it for 4 and add a 5 percent tip
+audio_cascaded,276,convert_units,convert_units,True,12 meters is 39.3701 feet.,Переведи 12 meters в feet
+audio_cascaded,277,convert_units,convert_units,True,10 meters is 32.8084 feet.,Convert 10 meters to feet
+audio_cascaded,278,split_bill,split_bill,True,Total with tip is 207.0 RUB. Each person pays 103.5 RUB.,"How much should each person pay if dinner is 180 RUB, 2 people, tip 15 percent"
+audio_cascaded,279,split_bill,split_bill,True,Total with tip is 287.5 EUR. Each person pays 47.92 EUR.,We paid 250 EUR; divide it for 6 friends and add a 15 percent tip
+audio_cascaded,280,convert_units,convert_units,True,7.5 kilograms is 16.5346 pounds.,Переведи 7.5 kilograms в pounds
+audio_cascaded,281,split_bill,split_bill,True,Total with tip is 132.0 RUB. Each person pays 22.0 RUB.,Раздели счет 120 RUB на 6 человек с чаевыми 10 процентов
+audio_cascaded,282,split_bill,split_bill,True,Total with tip is 198.0 USD. Each person pays 24.75 USD.,"Сколько платит каждый если счет 180 USD, людей 8, чаевые 10 процентов"
+audio_cascaded,283,split_bill,split_bill,True,Total with tip is 82.8 EUR. Each person pays 10.35 EUR.,"How much should each person pay if dinner is 72 EUR, 8 people, tip 15 percent"
+audio_cascaded,284,split_bill,split_bill,True,Total with tip is 262.5 USD. Each person pays 43.75 USD.,We paid 250 USD; divide it for 6 friends and add a 5 percent tip
+audio_cascaded,285,convert_units,none,True,No tool is needed for this request.,Please translate 21 pounds
+audio_cascaded,286,convert_units,convert_units,True,5 pounds is 2.268 kilograms.,Please translate 5 pounds into kilograms
+audio_cascaded,287,split_bill,split_bill,True,Total with tip is 107.52 RUB. Each person pays 17.92 RUB.,Раздели счет 96 RUB на 6 человек с чаевыми 12 процентов
+audio_cascaded,288,convert_units,convert_units,True,21 feet is 6.4008 meters.,Переведи 21 feet в meters
+audio_cascaded,289,convert_units,none,True,No tool is needed for this request.,Convert 42 meters to
+audio_cascaded,290,convert_units,convert_units,True,42 pounds is 19.0509 kilograms.,Please translate 42 pounds into kilograms
+audio_cascaded,291,convert_units,convert_units,True,100 kilometers is 62.1371 miles.,Please translate 100 kilometers into miles
+audio_cascaded,292,split_bill,none,True,No tool is needed for this request.,"How much should each pay if dinner is RUB, people, tip 0 percent"
+audio_cascaded,293,convert_units,convert_units,True,1 kilometers is 0.6214 miles.,Please translate kilometers into miles
+audio_cascaded,294,split_bill,split_bill,True,Total with tip is 113.28 EUR. Each person pays 28.32 EUR.,Split a EUR 96 bill between 4 people with 18% tip
+audio_cascaded,295,split_bill,split_bill,True,Total with tip is 36.75 USD. Each person pays 18.38 USD.,Split a USD 35 between 2 people with 5% tip
+audio_cascaded,296,convert_units,convert_units,True,100 kilometers is 62.1371 miles.,Сколько будет 100 kilometers в miles
+audio_cascaded,297,convert_units,convert_units,True,3 meters is 9.8425 feet.,How many feet are in 3 meters
+audio_cascaded,298,split_bill,split_bill,True,Total with tip is 96.0 RUB. Each person pays 32.0 RUB.,Split a RUB 96 bill between 3 people with 0% tip
+audio_cascaded,299,none,none,True,No tool is needed for this request.,Tell me a short fun fact about machine learning

@@ -1,0 +1,59 @@
+[
+  {
+    "prompt": "Split a USD 120 bill between 4 people with 15% tip",
+    "result": {
+      "raw": "{\"tool_name\": \"split_bill\", \"arguments\": {\"amount\": 120, \"people\": 4, \"tip_percent\": 15, \"currency\": \"USD\"}}",
+      "call": {
+        "tool_name": "split_bill",
+        "arguments": {
+          "amount": 120,
+          "people": 4,
+          "tip_percent": 15,
+          "currency": "USD"
+        }
+      },
+      "valid": true,
+      "reason": "ok",
+      "tool_result": {
+        "total": 138.0,
+        "per_person": 34.5,
+        "currency": "USD"
+      },
+      "answer": "Total with tip is 138.0 USD. Each person pays 34.5 USD."
+    }
+  },
+  {
+    "prompt": "Convert 10 kilometers to miles",
+    "result": {
+      "raw": "{\"tool_name\": \"convert_units\", \"arguments\": {\"value\": 10, \"from_unit\": \"kilometers\", \"to_unit\": \"miles\"}}",
+      "call": {
+        "tool_name": "convert_units",
+        "arguments": {
+          "value": 10,
+          "from_unit": "kilometers",
+          "to_unit": "miles"
+        }
+      },
+      "valid": true,
+      "reason": "ok",
+      "tool_result": {
+        "value": 6.2137,
+        "unit": "miles"
+      },
+      "answer": "10 kilometers is 6.2137 miles."
+    }
+  },
+  {
+    "prompt": "Tell me a short fun fact about machine learning",
+    "result": {
+      "raw": "{\"tool_name\": \"none\", \"arguments\": {}}",
+      "call": {
+        "tool_name": "none",
+        "arguments": {}
+      },
+      "valid": true,
+      "reason": "no_tool",
+      "answer": "No tool is needed for this request."
+    }
+  }
+]

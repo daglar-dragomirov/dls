@@ -1,0 +1,50 @@
+{
+  "dataset_size": 300,
+  "audio_files": 300,
+  "real_audio_eval_size": 30,
+  "prompt_tuning_A": {
+    "zero_shot": {
+      "parsable_rate": 0.0,
+      "precision": 0.6666666666666666,
+      "recall": 1.0,
+      "false_alarm_rate": 1.0,
+      "tool_name_accuracy": 0.0,
+      "argument_accuracy": 0.0,
+      "f1": 0.8
+    },
+    "schema_tuned": {
+      "parsable_rate": 1.0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "false_alarm_rate": 0.0,
+      "tool_name_accuracy": 1.0,
+      "argument_accuracy": 1.0,
+      "f1": 1.0
+    }
+  },
+  "pipeline_B_asr": {
+    "wer": 0.2816750841750842
+  },
+  "pipeline_C_native_audio": {
+    "parsable_rate": 1.0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "false_alarm_rate": 0.0,
+    "tool_name_accuracy": 1.0,
+    "argument_accuracy": 0.9,
+    "f1": 1.0
+  },
+  "pipeline_D_cascaded": {
+    "parsable_rate": 1.0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "false_alarm_rate": 0.0,
+    "tool_name_accuracy": 1.0,
+    "argument_accuracy": 0.9,
+    "f1": 1.0
+  },
+  "latency_s": {
+    "C_native_audio": 1.5128326933307108,
+    "D_cascaded": 3.019758720007182
+  }
+}
