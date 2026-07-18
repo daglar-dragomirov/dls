@@ -24,6 +24,19 @@ class TextRequest(BaseModel):
 app = FastAPI(title="DLS Speech: голосовой вызов инструментов", version="2.0.0")
 
 
+def _attach_tool_execution(result: dict) -> dict:
+    """Execute a validated call so every online pipeline returns a final answer."""
+    if not result.get("valid"):
+        return result
+    call = result.get("call") or {}
+    if call.get("tool_name") == "none":
+        result["answer"] = "Для этого запроса инструмент не требуется."
+        return result
+    executed = execute_tool(call)
+    result.update({"tool_result": executed.result, "answer": executed.answer})
+    return result
+
+
 @app.get("/health")
 def health() -> dict:
     return {"status": "ok", "project": "speech_toolformer", "version": "2.0.0"}
@@ -96,15 +109,12 @@ async def assistant_audio(audio: UploadFile = File(...), pipeline: str = Form("d
         if pipeline == "direct":
             result = direct_audio_tool_call(content, suffix)
             result["pipeline"] = "C_native_audio"
-            return result
+            return _attach_tool_execution(result)
         if pipeline == "cascaded":
             transcript = transcribe_audio(content, suffix)
             result = text_llm_tool_call(transcript["text"])
             result.update({"pipeline": "D_cascaded", "recognized_text": transcript["text"], "stt_usage": transcript["usage"]})
-            if result.get("valid") and result.get("call", {}).get("tool_name") != "none":
-                executed = execute_tool(result["call"])
-                result.update({"tool_result": executed.result, "answer": executed.answer})
-            return result
+            return _attach_tool_execution(result)
         raise HTTPException(status_code=400, detail="pipeline должен быть direct или cascaded")
     except HTTPException:
         raise
