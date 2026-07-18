@@ -57,7 +57,7 @@ def index() -> str:
 <!doctype html><html lang="ru"><head><meta charset="utf-8"/><meta name="viewport" content="width=device-width,initial-scale=1"/>
 <title>Агент релевантности организаций</title><style>
 :root{--ink:#17212b;--muted:#66717e;--line:#d8e0e7;--accent:#087f5b;--accent2:#e76f51;--paper:#fff;--bg:#f4f7f8}
-*{box-sizing:border-box}body{margin:0;font-family:Inter,system-ui,sans-serif;color:var(--ink);background:var(--bg);letter-spacing:0}
+*{box-sizing:border-box}body{margin:0;font-family:Inter,system-ui,sans-serif;color:var(--ink);background:var(--bg);letter-spacing:0}.topic{display:inline-block;margin-bottom:10px;padding:5px 8px;background:#fff;color:#142b32;border-left:4px solid var(--accent2);font-size:14px}
 header{background:#142b32;color:#fff;padding:24px max(20px,calc((100% - 1120px)/2));border-bottom:4px solid var(--accent2)}
 h1{font-size:27px;margin:0 0 6px}header p{margin:0;color:#c9d6d9}.layout{max-width:1120px;margin:22px auto;padding:0 18px 36px;display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:18px}
 .band{grid-column:1/-1;background:var(--paper);border-top:1px solid var(--line);border-bottom:1px solid var(--line);padding:16px 18px}.panel{background:var(--paper);border:1px solid var(--line);border-radius:7px;padding:18px}
@@ -65,7 +65,7 @@ h2{font-size:18px;margin:0 0 14px}.metrics{display:grid;grid-template-columns:re
 label{display:block;font-weight:650;font-size:13px;margin:11px 0 5px}input,textarea{width:100%;border:1px solid #b9c5cf;border-radius:5px;padding:9px 10px;font:inherit;background:#fff}textarea{min-height:78px;resize:vertical}.row{display:grid;grid-template-columns:1fr 1fr;gap:10px}
 button{margin-top:13px;border:0;border-radius:5px;padding:10px 14px;font-weight:700;cursor:pointer;background:var(--accent);color:#fff}button:disabled{cursor:wait;opacity:.65}button.secondary{background:#e7edf0;color:#20323a;margin-left:6px}pre{margin:0;min-height:460px;max-height:650px;overflow:auto;background:#111b20;color:#d9f2e8;border-radius:6px;padding:14px;white-space:pre-wrap;font-size:13px}
 .status{font-size:13px;color:var(--muted);margin-top:8px}@media(max-width:800px){.layout{grid-template-columns:1fr}.metrics{grid-template-columns:1fr 1fr}.row{grid-template-columns:1fr}}
-</style></head><body><header><h1>Агент релевантности организаций</h1><p>Baseline, поиск доказательств и похожие размеченные примеры</p></header>
+</style></head><body><header><div class="topic"><strong>Выбранная тема DLS: «LLM-агенты: оценка релевантности организаций запросам на Яндекс.Картах»</strong></div><h1>Агент релевантности организаций</h1><p>Baseline, поиск доказательств и похожие размеченные примеры</p></header>
 <main class="layout"><section class="band"><div class="metrics" id="metrics"></div></section>
 <section class="panel"><h2>Карточка организации</h2><label>Поисковый запрос</label><input id="query" value="ресторан с верандой"/>
 <label>Название</label><input id="organization_name" value="Северный сад"/><div class="row"><div><label>Рубрика</label><input id="category" value="Ресторан"/></div><div><label>Адрес</label><input id="address" value="Москва"/></div></div>
